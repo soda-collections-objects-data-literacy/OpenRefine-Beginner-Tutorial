@@ -64,16 +64,15 @@ Für einen Überblick zu der Arbeit mit OpenRefine haben wir dieses Tutorial aus
 
 ---
 
-## Demo-Datensätze
+## Demo-Datensatz
 
 Für die Übungen wird folgender Datensatz benötigt:
 
 **Sammlungsobjekte-Demo:**
 
-Der Datensatz stammt aus dem Demosystem von [Objekte im Netz](https://objekte-im-netz.fau.de/oindemo/), einem vom BMBF geförderten Projekt für eine gemeinsame Erschließungs- und Digitalisierungsstrategie für die Sammlungen der Friedrich Alexander Universität Erlangen-Nürnberg. Diese Daten wurden für unseren Demo Datensatz angepasst und abgeändert und können 
+Der Datensatz stammt aus dem Demosystem von [Objekte im Netz](https://objekte-im-netz.fau.de/oindemo/), einem vom BMBF geförderten Projekt für eine gemeinsame Erschließungs- und Digitalisierungsstrategie für die Sammlungen der Friedrich Alexander Universität Erlangen-Nürnberg. 
 
-- in unserer [**Knowldegebase**](https://club.phoenix.iwus.org/kb/fdm/daten-check-mit-openrefine) oder 
-- in unserem [Repository] heruntergeladen werden.
+**~~Diese Daten wurden für unseren Demo Datensatz angepasst und abgeändert~~** und können [hier](https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial/blob/main/SODa%20OpenRefine-Demo_Sammlungsobjekte-im-Netz.csv) in unserem Repository heruntergeladen werden. Rechts über dem Code auf das Download Symbol ↓ klicken. 
 
 
 ## Basics
