@@ -14,9 +14,12 @@ window.LIA.settings.theme = "yellow"
 @end
 
 edit:       true
-repository: https://github.com/soda
+repository: https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial
+
+license:    CC BY 4.0 https://creativecommons.org/licenses/by/4.0/  
 
 icon:       /img/SODa-Logo_Wort-Bild_RGB.png
+logo:       /img/SODa-Logo_Wort-Bild_RGB.png
 
 comment:    Dieses Dokument ist eine Einführung zu OpenRefine v.a. für Personen, 
             die in und mit Universitätssammlungen arbeiten und forschen.
