@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap');
 
 :root {
-  --main-bg-color: #fbfbf7;
+  background: #fbfbf7;
 }
 
 body {
@@ -15,12 +15,8 @@ h1.lia-h1 {
   margin-right:auto !important;
 }
 
-.lia-toolbar {
+.lia-toc {
   background: #FFA933 !important;
-}
-
-.lia-toc .lia-toolbar {
-  background: var(--main-bg-color) !important;
 }
 
 .lia-btn {
