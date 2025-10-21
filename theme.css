@@ -1,53 +1,18 @@
 /* Noto Sans importieren */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap');
 
-:root {
-  background: #fbfbf7;
-}
+main,
+  .lia-canvas,
+  .lia-slide {
+    background: #fbfbf7;
+  }
 
 body {
   font-family: 'Noto Sans', sans-serif !important;
 }
 
-h1.lia-h1 {
-  font-size:5vw !important;
-  margin-left:auto !important;
-  margin-right:auto !important;
-}
-
 .lia-toc {
   background: #FFA933 !important;
-}
-
-.lia-btn {
-  background: var(--main-bg-color) !important;
-}
-
-.lia-input {
-  background: var(--main-bg-color) !important;
-}
-
-.lia-active {
-  background: var(--main-bg-color) !important;
-}
-
-.lia-quote {
-  background: var(--main-bg-color) !important;
-  border-left-color: #FFA933 !important;
-}
-
-.lia-accordion {
-  background: var(--main-bg-color) !important;
-  font-size: 12px !important;
-}
-
-.lia-accordion-dummy {
-  background: var(--main-bg-color) !important;
-  font-size: 12px !important;
-}
-
-.lia-quiz {
-  border-color: var(--main-bg-color) !important;
 }
 
 .lia-link {
