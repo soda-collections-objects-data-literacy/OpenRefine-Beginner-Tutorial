@@ -8,13 +8,13 @@ language:   de
 mode:       Textbook
 dark:       false
 
-link:     https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
-          https://fonts.googleapis.com/css?family=Noto Sans
+link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
+            https://fonts.googleapis.com/css?family=Noto Sans
 
 license:    CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 
 
-icon: /img/SODa-Logo_Wort-Bild_RGB.png
-logo: /img/SODa-Logo_Wort-Bild_RGB.png
+icon:       /img/SODa-Logo_Wort-Bild_RGB.png
+logo:       /img/SODa-Logo_Wort-Bild_RGB.png
 
 
 comment:    Dieses Dokument ist eine Einführung zu OpenRefine v.a. für Personen, 
