@@ -18,24 +18,20 @@
 }
 
 /* Sidebar */
-.lia-sidebar {
-  width: var(--lia-sidebar-width)!important;
-  background: #e68500 !important; 
-  padding: 14px;
-}
+.lia-toc { background-color: #fbfbf7; }
 .lia-toc .lia-nav-item { padding:8px 10px; border-radius:6px; }
-.lia-toc .lia-nav-item.is-current { background: rgba(255,169,51,0.12); color: #FFA933; }
+.lia-toc__content a.lia-active { color: #FFA933; }
 .lia-toc .lia-nav-item:hover { background: rgba(255,169,51,0.06); }
 
 /* Buttons (Dual) */
 .lia-btn {
-  background: var(--lia-color-primary) !important;
-  color: #fff !important;
+  background: transparent !important;
+  color: #D1F3E5 !important;
   padding: 8px 14px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
 }
 .lia-btn:hover { transform: translateY(-1px); }
 .lia-btn.secondary {
@@ -45,11 +41,16 @@
 }
 .lia-btn.secondary:hover { background: rgba(255,169,51,0.06)!important; }
 
+.lia-pagination__content { background: #FFA933!important; }
+
 /* Progress Bar */
-.lia-progress-bar {
+.lia-progress {
+  height: .15rem;
   background: #FFA933 !important;
 }
 
 /* Links */
+a:link, .lia-link:link { color: #FFA933 !important; }
+a:visited, .lia-link:visited { color: #e68500 !important; }
 a { color: var(--lia-link-color); text-decoration: underline!important; }
 a:hover { opacity: 0.9; }
