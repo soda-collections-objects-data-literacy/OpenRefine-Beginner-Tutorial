@@ -9,7 +9,7 @@ mode:       Textbook
 dark:       false
 
 link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
-            https://fonts.googleapis.com/css?family=Noto Sans
+            https://fonts.googleapis.com/css?family=Noto+Sans
 
 license:    CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 
 
