@@ -1,56 +1,46 @@
 /* Noto Sans importieren */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap');
 
-:root{
-  --lia-font: 'Noto Sans', sans-serif;
-  --lia-color-primary: #FFA933;
-  --lia-color-secondary: #D1F3E5;
-  --lia-background-color: #fbfbf7;
-  --lia-background-dark: #262626;
-  --lia-editor-background: #fbfbf7;
-  --lia-text-color: #262626;
-  --lia-link-color: #FFA933;
-  --lia-border-color: #D1F3E5;;
-  --lia-radius: 8px;
-  --lia-toolbar-height: 58px;
-  --lia-sidebar-width: 260px;
-  --lia-content-max-width: 980px;
+body {
+  font-family: 'Noto Sans', sans-serif !important;
 }
 
 /* Sidebar */
-.lia-toc { background-color: #fbfbf7; }
-.lia-toc .lia-nav-item { padding:8px 10px; border-radius:6px; }
-.lia-toc__content a.lia-active { color: #FFA933; }
-.lia-toc .lia-nav-item:hover { background: rgba(255,169,51,0.06); }
+.lia-toc { 
+  background-color: #fbfbf7 !important; 
+}
 
-/* Buttons (Dual) */
+.lia-active { 
+  color: #FFA933 !important; 
+}
+
+/* Buttons */
 .lia-btn {
   background: transparent !important;
   color: #D1F3E5 !important;
-  padding: 8px 14px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+  padding: 8px 14px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06) !important;
 }
-.lia-btn:hover { transform: translateY(-1px); }
-.lia-btn.secondary {
-  background: transparent !important;
-  color: var(--lia-color-primary) !important;
-  border: 1.5px solid var(--lia-color-primary);
-}
-.lia-btn.secondary:hover { background: rgba(255,169,51,0.06)!important; }
 
-.lia-pagination__content { background: #FFA933!important; }
+.lia-pagination__content { 
+  background: #FFA933!important; 
+  color: #D1F3E5 !important;
+}
 
 /* Progress Bar */
 .lia-progress {
-  height: .15rem;
+  height: .15rem !important;
   background: #FFA933 !important;
 }
 
 /* Links */
-a:link, .lia-link:link { color: #FFA933 !important; }
-a:visited, .lia-link:visited { color: #e68500 !important; }
-a { color: var(--lia-link-color); text-decoration: underline!important; }
-a:hover { opacity: 0.9; }
+.lia-link { 
+  color: #FFA933 !important; 
+}
+
+.lia-link:visited { 
+  color: #e68500 !important;
+ }
