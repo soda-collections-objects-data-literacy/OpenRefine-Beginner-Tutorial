@@ -6,21 +6,28 @@ body {
 }
 
 /* Sidebar */
-.lia-toc { 
-  background-color: #fbfbf7 !important; 
-}
 
 .lia-active { 
+  color: #FFA933 !important; 
+}
+
+.color-highlight-dark { 
+  color: #FFA933 !important; 
+}
+.color-highlight-menu { 
+  color: #FFA933 !important; 
+}
+.color-highlight { 
   color: #FFA933 !important; 
 }
 
 /* Buttons */
 .lia-btn {
   background: transparent !important;
-  color: #D1F3E5 !important;
+  color: #94e3c3 !important;
   padding: 8px 14px !important;
   border-radius: 8px !important;
-  border: none !important;
+  border: #D1F3E5 !important;
   cursor: pointer !important;
   box-shadow: 0 4px 8px rgba(0,0,0,0.06) !important;
 }
