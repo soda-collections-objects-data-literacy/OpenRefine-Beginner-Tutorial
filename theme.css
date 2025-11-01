@@ -1,6 +1,12 @@
 /* Noto Sans importieren */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap');
 
+:root { 
+--color-highlight-dark: 255, 169, 51 !important;
+--color-highlight-menu: 255, 169, 51 !important;
+--color-highlight: 255, 169, 51 !important;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif !important;
 }
@@ -11,20 +17,10 @@ body {
   color: #FFA933 !important; 
 }
 
-.color-highlight-dark { 
-  color: #FFA933 !important; 
-}
-.color-highlight-menu { 
-  color: #FFA933 !important; 
-}
-.color-highlight { 
-  color: #FFA933 !important; 
-}
-
 /* Buttons */
 .lia-btn {
   background: transparent !important;
-  color: #94e3c3 !important;
+  color: #FFA933!important; 
   padding: 8px 14px !important;
   border-radius: 8px !important;
   border: #D1F3E5 !important;
@@ -34,7 +30,6 @@ body {
 
 .lia-pagination__content { 
   background: #FFA933!important; 
-  color: #D1F3E5 !important;
 }
 
 /* Progress Bar */
