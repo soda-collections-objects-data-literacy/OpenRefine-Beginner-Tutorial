@@ -20,10 +20,7 @@ body {
 /* Buttons */
 .lia-btn {
   background: transparent !important;
-  color: #FFA933!important; 
   padding: 8px 14px !important;
-  border-radius: 8px !important;
-  border: #D1F3E5 !important;
   cursor: pointer !important;
   box-shadow: 0 4px 8px rgba(0,0,0,0.06) !important;
 }
@@ -46,3 +43,29 @@ body {
 .lia-link:visited { 
   color: #e68500 !important;
  }
+
+ /* Dark */
+html.lia-variant-dark .lia-btn--transparent {
+  filter: contrast(1.1)!important;
+}
+
+html.lia-variant-dark .lia-label {
+  color: rgb(var(--color-highlight))!important;
+}
+
+html.lia-variant-dark .lia-support-menu__item {
+  color: rgb(var(--color-highlight))!important;
+}
+
+html:not([class*="lia-theme-default"]) .lia-toc {
+  background-color: transparent !important;
+}
+
+html.lia-variant-dark .lia-code--inline {
+  border-color: rgb(var(--color-highlight))!important;
+  color: rgb(var(--color-highlight))!important;
+}
+
+html.lia-variant-dark .lia-list--unordered > li::marker {
+  color: rgb(var(--color-highlight-dark));
+}
