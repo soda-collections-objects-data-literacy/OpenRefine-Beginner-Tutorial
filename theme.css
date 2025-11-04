@@ -44,7 +44,17 @@ body {
   color: #e68500 !important;
  }
 
- /* Dark */
+ /* Theme not default Light */
+
+html:not([class*="lia-theme-default"]) .lia-toc {
+  color: rgb(var(--color-text))!important;
+}
+
+ html:not([class*="lia-theme-default"]) .lia-toc__search input {
+  color: rgb(var(--color-text))!important;
+}
+
+ /* Theme not default Dark */
 html.lia-variant-dark .lia-btn--transparent {
   filter: contrast(1.1)!important;
 }
