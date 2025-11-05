@@ -11,6 +11,10 @@ body {
   font-family: 'Noto Sans', sans-serif !important;
 }
 
+.h1, .h2, .h3 {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
 /* Sidebar */
 
 .lia-active { 
