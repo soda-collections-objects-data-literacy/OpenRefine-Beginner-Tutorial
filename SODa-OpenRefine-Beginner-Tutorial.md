@@ -518,59 +518,59 @@ Es ist allgemein wahrscheinlich einfacher, die Spracheinstellung bei OpenRefine 
 
 ### Einsteiger Tutorials
 
-- Einsteigerworkshop (Deutsch): <https://fdmlab.landesarchiv-bw.de/workshop/openrefine-einsteiger/warum-openrefine/>
-- Einsteigerworkshop (Englisch): <https://evanwill.github.io/openrefine-b/content/0-refine.html>
-- Einsteigerworkshop als Video (Englisch): <https://www.youtube.com/watch?v=yTJ6x6zEQmI>
-- Einsteiger YouTube Tutorial (Deutsch): <https://www.youtube.com/watch?v=E5QgxZ4l6ac>
-- Einsteiger YouTube Tutorial (Englisch): <https://www.youtube.com/watch?v=sAS0_RQSmms>
+- Einsteigerworkshop (Deutsch): https://fdmlab.landesarchiv-bw.de/workshop/openrefine-einsteiger/warum-openrefine/
+- Einsteigerworkshop (Englisch): https://evanwill.github.io/openrefine-b/content/0-refine.html
+- Einsteigerworkshop als Video (Englisch): https://www.youtube.com/watch?v=yTJ6x6zEQmI
+- Einsteiger YouTube Tutorial (Deutsch): https://www.youtube.com/watch?v=E5QgxZ4l6ac
+- Einsteiger YouTube Tutorial (Englisch): https://www.youtube.com/watch?v=sAS0_RQSmms
 
 ### Clustering
 
 Algorithmische Suche von ähnlichen Begriffen, die dann durch einen Begriff ersetzt werden können – etwa bei Tippfehlern
 
-- Tutorial (Deutsch): <https://fdmlab.landesarchiv-bw.de/workshop/openrefine-einsteiger/05-clustering/>
-- Dokumentation (Englisch): <https://openrefine.org/docs/technical-reference/clustering-in-depth>
+- Tutorial (Deutsch): https://fdmlab.landesarchiv-bw.de/workshop/openrefine-einsteiger/05-clustering/
+- Dokumentation (Englisch): https://openrefine.org/docs/technical-reference/clustering-in-depth
 - bei Key collisions sind die phonetisches Verfahren Metaphone3 meist für englische Sprache, Cologne Phonetics für deutsche Sprache, Daitch-Moktoff für Jiddisch und slawische Sprache, Beider-Morse für alle Sprachen
 
 ### GND-Abgleich
 
-- Tutorial (Deutsch): <https://fdmlab.landesarchiv-bw.de/workshop/openrefine-einsteiger/06-reconciling-mit-gnd/>
-- Hier ein Tutorial mit einem Beispiel-Workflow zur Bereinigung von Ortsnamen, bei denen Clustering und GND-Abgleich zum Einsatz kommen (Deutsch): <https://www.youtube.com/watch?v=tCdluPq5GkA&t=615s>
+- Tutorial (Deutsch): https://fdmlab.landesarchiv-bw.de/workshop/openrefine-einsteiger/06-reconciling-mit-gnd/
+- Hier ein Tutorial mit einem Beispiel-Workflow zur Bereinigung von Ortsnamen, bei denen Clustering und GND-Abgleich zum Einsatz kommen (Deutsch): https://www.youtube.com/watch?v=tCdluPq5GkA&t=615s
 
 ### Batch-Upload
 
 von Daten zu Wikimedia Commons
 
-- Video (Englisch): <https://www.youtube.com/watch?v=sc6aNNmsNCI>
+- Video (Englisch): https://www.youtube.com/watch?v=sc6aNNmsNCI
 
 ### Web Daten
 
 Mit OpenRefine Daten aus dem Web laden und verarbeiten
 
-- Turorial (Englisch): <https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine>
+- Turorial (Englisch): https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine
 
 ### Regex und GREL
 
-- in der OpenRefine Dokumentation (Englisch): <https://openrefine.org/docs/manual/expressions>
-- zum Testen der Expressions (Englisch): <https://regex101.com/>
-- und auch zum Testen und Lernen (mit Cheat Sheet) (Englisch): <https://regexr.com/>
-- Regex Übung (Deutsch): <https://fdmlab.landesarchiv-bw.de/workshop/openrefine-fortgeschrittene/08-regulaere-ausdruecke/>
-- GREL Übung (Deutsch): <https://fdmlab.landesarchiv-bw.de/workshop/openrefine-fortgeschrittene/09-arbeiten-mit-grel/>
+- in der OpenRefine Dokumentation (Englisch): https://openrefine.org/docs/manual/expressions
+- zum Testen der Expressions (Englisch): https://regex101.com/
+- und auch zum Testen und Lernen (mit Cheat Sheet) (Englisch): https://regexr.com/
+- Regex Übung (Deutsch): https://fdmlab.landesarchiv-bw.de/workshop/openrefine-fortgeschrittene/08-regulaere-ausdruecke/
+- GREL Übung (Deutsch): https://fdmlab.landesarchiv-bw.de/workshop/openrefine-fortgeschrittene/09-arbeiten-mit-grel/
 
 ## Impressum
 
-SODa – Sammlungen, Objekte, Datenkompetenzen: <https://sammlungen.io/>
+SODa – Sammlungen, Objekte, Datenkompetenzen: https://sammlungen.io/
 --------------------------------------------
 
 --------------------------------------------
 
 **Autoren:**
 
-- Louise Tharandt (<louise.tharandt@hu-berlin.de>)
-- Michael Markert (<michael.markert@fau.de>)
+- Louise Tharandt (louise.tharandt@hu-berlin.de)
+- Michael Markert (michael.markert@fau.de)
 
 ---
 
-weitere Tutorials und Open Educational Resources: <https://sammlungen.io/kb>
+weitere Tutorials und Open Educational Resources: https://sammlungen.io/kb
 
 ---

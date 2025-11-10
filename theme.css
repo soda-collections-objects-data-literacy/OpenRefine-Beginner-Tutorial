@@ -51,11 +51,22 @@ body {
  /* Theme not default Light */
 
 html:not([class*="lia-theme-default"]) .lia-toc {
+  background-color: #FFA933 !important;
+}
+
+html:not([class*="lia-theme-default"]) .lia-toc {
   color: rgb(var(--color-text))!important;
 }
 
  html:not([class*="lia-theme-default"]) .lia-toc__search input {
   color: rgb(var(--color-text))!important;
+}
+
+html:not([class*="lia-theme-default"]) .lia-toc__content a.lia-active {
+  color: rgb(var(--color-highlight-menu));
+  background-color: #323232 !important;
+  border-radius: .3rem;
+  font-weight: 700;
 }
 
  /* Theme not default Dark */
@@ -69,10 +80,6 @@ html.lia-variant-dark .lia-label {
 
 html.lia-variant-dark .lia-support-menu__item {
   color: rgb(var(--color-highlight))!important;
-}
-
-html:not([class*="lia-theme-default"]) .lia-toc {
-  background-color: transparent !important;
 }
 
 html.lia-variant-dark .lia-code--inline {
