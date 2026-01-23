@@ -1,9 +1,9 @@
 <!--
 
 author:     Louise Tharandt & Michael Markert
-email:      louise.tharandt@hu-berlin.de oder michael.markert@fau.de
-date:       26/06/2025
-version:    0.1.0
+email:      louise.tharandt@hu-berlin.de
+date:       23/01/2026
+version:    1.0
 language:   de
 mode:       Textbook
 dark:       false
@@ -34,7 +34,7 @@ Wesentliche Eigenschaften von OpenRefine:
 - ist ideal für Bereinigungs- und Sortieraufgaben, etwa bei dem Import von Daten in ein Museumsdokumentationssystem
 - eignet sich deshalb vor allem für wiederholbare, komplexe Bearbeitungsschritte, die ganze Spalten oder die ganze Tabelle betreffen
 - und hat dafür eine eigene Skriptsprache namens GREL integriert, es kann aber auch Python genutzt werden
-- ist für Kalkulation und Diagramme ebenso wenig geeignet, wie die Arbeit an einzelnen Zellen/Feldern – dafür gibt es Excel
+- aber ist für Kalkulation und Diagramme ebenso wenig geeignet, wie die Arbeit an einzelnen Zellen/Feldern – dafür gibt es Excel
 
 Ob zur Vorbereitung digitaler Sammlungen, für Systemmigrationen oder zur besseren Integration in Forschungsinfrastrukturen – OpenRefine erleichtert die Arbeit mit Metadaten erheblich und trägt dazu bei, Sammlungen besser zu erschließen und nachhaltig nutzbar zu machen.
 
@@ -56,13 +56,13 @@ Für einen Überblick zu der Arbeit mit OpenRefine haben wir dieses Tutorial aus
 
         Online vorhandene Daten können auch per URL in OpenRefine geladen werden, dafür wird in der Spalte ~~Get Data from~~ unter This Computer auf **Web Addresses (URLs)** geklickt, danach kann in das freie Feld die URL kopiert werden.
 
-5. Bevor die Arbeit mit den Daten beginnen kann, wird die geöffnete Datei in OpenRefine dargestellt. Hier können eventuelle Import Fehler, wie (1) Spalten-Separator oder Character encoding, verändert werden. Auch der (2) Projekt Name kann angepasst oder verändert werden. Ist alle korrekt, kann nun oben rechts in der Ecke (3) mit **"create project"** das OpenRefine Projekt gestartet werden.
+5. Bevor die Arbeit mit den Daten beginnen kann, wird die geöffnete Datei in OpenRefine dargestellt. Hier können eventuelle Import Fehler, wie (1) Spalten-Separator oder Character encoding, verändert werden. Auch der (2) Projekt Name kann angepasst oder verändert werden. Ist alles korrekt, kann nun oben rechts in der Ecke (3) mit **"create project"** das OpenRefine Projekt gestartet werden.
 
 ![OpenRefine Daten Vorschau](img/OpenRefine_DataPreview.png "Abb. 1: Daten Vorschau bei OpenRefine nach dem Upload")
 
 > ⚠️ Wenn es trotz problemlosem Herunterladen und Öffnen nicht möglich ist Daten hochzuladen, OpenRefine komplett schließen und wieder öffnen.
 
-> 💡 Es besteht die Möglichkeit die Sprache von OpenRefine in der äußersten linken Spalte unter **Language settings** zu ändern, am besten wäre aber die Nutzung von Engisch, da dann mögliche Probleme besser in den internationalen Foren besprochen und behoben werden können.
+> 💡 Es besteht die Möglichkeit die Sprache von OpenRefine in der äußersten linken Spalte unter **Language settings** zu ändern, am besten wäre aber die Nutzung von Englisch, da dann mögliche Probleme besser in den internationalen Foren besprochen und behoben werden können.
 
 ---
 
@@ -130,10 +130,10 @@ weitere Möglichkeit:
 - Beide Zeilen sind rechts im großen Fenster nun sichtbar
 - Mit der Maus über Wurst, Hans schweben und auf der rechten Seite auf include clicken
 - alle drei Zeilen sind nun im großen Fenster sichtbar ausgewählt
-- innerhalb des kleinen Filter-Fensters mit der Maus über Wurst, Wurst, Hans schweben und auf edit klicken
-- den doppelten Nachnamen löschen, auf Apply clicken
-- die Korrektur ist nun in beiden Fenstern sichtbar
-- um wieder alle Zeilen zu sehen, auf den orange markierten Namen klicken oder im kleinen Fenster oben rechts auf reset
+- innerhalb der Tabelle mit der Maus über Wurst, Wurst, Hans schweben und auf edit klicken
+- den doppelten Nachnamen löschen, auf Apply to all identical cells klicken
+- die Korrektur ist nun in beiden Fenstern sichtbar, im Facet Fenster ist eine 0 hinter Wurst, Wurst, Hans zu sehen
+- um wieder alle Zeilen zu sehen, auf die orange markierten Namen klicken oder im kleinen Fenster oben rechts auf reset
 - Facet Fenster schliessen, oben links auf 🆇
 
 ---
@@ -144,7 +144,7 @@ weitere Möglichkeit:
 
 > Spalte "Bezeichnung/Titel" -> Facet -> Text Facet
 
-- Wieder wie im ersten Beispiel über die Tabelle scrollen bis die **Spalte "Bezeichnung/Titel"** zu sehen ist (diesmal nach links, kurz nach der Spalte Beschreibung). Rechts oben das kleine blaue Dreieck 🔽 neben dem Spaltennamen klicken. Über **Facet** dem nächsten Dropdown nach rechts folgen und **Text Facet** auswählen.
+- Wieder wie im ersten Beispiel über die Tabelle scrollen bis die **Spalte "Bezeichnung/Titel"** zu sehen ist (diesmal nach links fast bis zum Anfang). Rechts oben das kleine blaue Dreieck 🔽 neben dem Spaltennamen klicken. Über **Facet** dem nächsten Dropdown nach rechts folgen und **Text Facet** auswählen.
 - Innerhalb des kleinen Facet-Fensters sieht man an erster Stelle nur eine graue 1, darunter die korrekten Bezeichnungen
 - Beim Anklicken der Auswahl (direkt links neben der Zahl 1, teilweise schwer zu finden) wird die Zeile im großen Fenster rechts angezeigt
 - In der Spalte "Bezeichnung/Titel" auf `edit` klicken
@@ -191,6 +191,8 @@ weitere Möglichkeit:
 
 > Spalte "Objektart" -> Sort ...
 
+- Zur Spalte **"Objektart"** scrollen (links von "Bezeichnung/Titel")
+- Rechts oben das kleine blaue Dreieck 🔽 neben dem Spaltennamen klicken und zu **Sort...** gehen. 
 - Text und Sortierung a-z ausgewählt lassen
 - Auf der rechten Seite das Feld "blanks" nach oben ziehen
 - Auf OK klicken
@@ -236,11 +238,11 @@ weitere Möglichkeit:
 
 - Mit diesem Beispiel tasten wir uns an Expressions und erste einfache Tricks zum verändern von Inhalten ran
 - Die Spalte "Bild" mit allen Links finden und über das Dropdown Menü **Edit cells** und dort dann **Split multi-valued cells** auswählen
-- Auswahl bei **"by Separator"** lassen und in das freie Feld folgenden Wert (Expression für Zeilenumbruch) einfügen und ein **Häkchen** ☑️ bei **regular expression** setzen:
+- Auswahl bei **"by Separator"** lassen und in das freie Feld folgendes dort genutztes Trennzeichen einfügen und ein **Häkchen** ☑️ bei **regular expression** setzen:
 
-    `\n`
+    ` , `
 - Auf OK klicken
-- Durch diese Aktion sind bei mehrfachen Werten in der Spalte, die in ihrer Zelle durch ein Zeilenumbruch getrennt waren, neue Zeilen entstanden
+- Durch diese Aktion sind bei mehrfachen Werten in der Spalte, die in ihrer Zelle durch ein Komma getrennt waren, neue Zeilen entstanden
 - Dies kann man bei einem Vergleich durch Auswahl oben links zwischen **rows** (in diesem Fall 48) und **records** (42) sehen
 
         {{2}}
@@ -262,6 +264,7 @@ weitere Möglichkeit:
 
 - Damit alle Werte wieder zu ihren korrekten Zeilen und IDs passen, müssen die getrennten Werte wieder zusammengebracht werden
 - Über das Dropdown Menü **Edit cells** und dort dann **Join multi-valued cells** auswählen
+- im Pop-up wird automatisch schon ein Komma angegeben, dies kann so übernommen werden
 - Es sind wieder 42 rows und 42 records vorhanden
 - Join arbeitet immer pro record, so kommt wieder zusammen, was vorher zusammen war
 
@@ -273,6 +276,7 @@ weitere Möglichkeit:
 
 > Spalte "Teilsammlung" -> Facet -> Text Facet
 
+- Zur Spalte **"Teilsammlung"** scrollen (etwas nach links scrollen, zwischen Bemerkung und Provenienz (Referenztitel))
 - **Text facet** für die Spalte **"Teilsammlung"** erstellen
 - Werte kontrollieren und Fehler finden
 - Im kleinen Facet Fenster oben rechts auf Cluster drücken
@@ -292,6 +296,8 @@ weitere Möglichkeit:
         {{1}}
 > Spalte "ID" -> Edit column -> Add column based on this column ... `value.split(":")[1]`
 
+- Zur Spalte **"ID"** ganz am Anfang scrollen
+- Die ID besteht aus verschiedenen Codes, 000 (laufende Nummer) - ABC (Sammlungs-ID) _ XY123 (Signatur) : 123 (Anzahl)
 - Für die Spalte "ID" über das Dropdown-Menü **Edit column** und dort dann **Add column based on this column ...** auswählen
 - Oben im Feld neuen Spalten Namen einfügen, für dieses Beispiel **Anzahl** eingeben
 - Innerhalb des Expression-Feldes folgende Funktion einfügen und OK drücken:
@@ -345,7 +351,8 @@ dem Doppelpunkt (":"), das erste Array [0] gewählt.
 
 > Spalte "Messung" -> Facet -> Text Facet
 
-- Man kann schnell erkennen, dass in der Spalte "Messung" alle Daten eingetragen wurden, ohne auf Reihenfolge oder Typ zu achten
+- Zur Spalte **"Messung"** nach rechts scrollen (zwischen Technik und Eingangsjahr)
+- Man kann schnell erkennen, dass in der Spalte "Messung" alle Werte eingetragen wurden, ohne auf Reihenfolge oder Typ zu achten
 - Als Vorarbeit für den nächsten Schritt die Werte an 2. Position (H.: 17cm, Dm.: 13cm) korrigieren und anpassen (Höhe: 17cm, Durchmesser: 13cm)
 - Wenn die Schritte zur Korrektur der Werte fehlen, auf die Lösung klicken und öffnen:
 
@@ -402,36 +409,42 @@ value.find(/Breite:\s*\d+(,\d+)?(mm|cm)/)[0]
 
 ### 8. Einfache Datenvisualiserung in OpenRefine
 
-Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OenRefine vereinfacht visualisiert werden. Je nach Datenlage können eine Histogram oder eine Scatterplot Dartsellung erstellt werden.
+Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRefine vereinfacht visualisiert werden. Je nach Datenlage können eine Histogram oder eine Scatterplot Darstellung erstellt werden.
 
         {{1}}
 
-> Spalte "Eingangsjahr" -> Edit Cells -> Common Transforms -> To date
+> Spalte "Fotodokumentation" -> Edit cells -> Transform...
 
-- Zur **Spalte "Eingangsjahr"** gehen (drei Spalten hinter Messung), rechts oben das kleine blaue Dreieck 🔽 neben dem Spaltennamen klicken.
-- Auf **Edit Cells** und gleich weiter zu **Common Transforms** rutschen und dann auf **To date** klicken
-- Daurch sind die eingetragenen Werte nun als Datumswerte definiert und können als diese auch dargestellt werden.
+- Zur **Spalte "Fotodokumentation"** gehen (drei Spalten hinter Messung), rechts oben das kleine blaue Dreieck 🔽 neben dem Spaltennamen klicken.
+- Auf **Edit Cells** und gleich weiter zu **Transform...** rutschen und dann folgende Expression eingeben:
+
+`value.toDate('dd.MM.yyyy','dd-MM-yy').toString('yyyy-MM-dd')`
+
+- Dadurch sind die verscheiden eingetragenen Werte aufgeräumt 
 
         {{2}}
 
-> Spalte "Eingangsjahr" -> Facet -> Timeline Facet...
+> Spalte "Fotodokumentation" -> Facet -> Timeline Facet
 
-- Dafür nun wieder auf das kleine blaue Dreieck 🔽 gehen und über **Facet** zu **Timeline facet** gehen
+- Diese könnten nun auch als Datumswerte definiert werden:
+- Auf **Edit Cells** und gleich weiter zu **Common transforms** und dort weiter zu **To date** 
+- Die Werte werden nun als Datumstyp angezeigt, diese kann man in einer Timeline darstellen
+- Hierfür rechts oben das kleine blaue Dreieck 🔽 neben dem Spaltennamen klicken und über **Facet** auf **Timeline facet** gehen
 - In der linken Spalte wird nun ein Timeline facet dargestellt
 - In dieser Timeline können links und rechts die "Griffe" verschoben werden, dadurch wird die Auswahl innerhalb des Zeitstrahls vergrößert oder verkleinert
 - Durch die Visualsierung können Ausreißer und auch die zeitliche Verteilung der Daten besser und übersichtlicher angezeigt werden
 
         {{3}}
 
-> Spalte "Eingangsjahr" -> Edit cells -> Transform...
+> Spalte "Fotodokumentation" -> Edit cells -> Transform...
 
 - um die Jahreszahlen mit anderen Zahlen vergleichen zu können, müssen wir diese erst wieder zu "normalen" Zahlen umwandeln
 - über **Edit cells** und **Transform...** kommen wir wieder zu den Expressions
 - hier wird nun folgende Funktion eingegeben:
 
-`value.datePart("years")`
+`value.split("-")[0].toNumber()`
 
-- hierbei wird definiert, dass der Wert Jahr aus dem Datum herausgesondert wird
+- hierbei wird definiert, dass der Wert Jahr erst abgettrennt wird und daraus eine Zahl (number) als Value Type definiert wird
 - mit dieser Umwandlung kann nun die nächste Visualisierung kommen
 
         {{4}}
@@ -439,9 +452,9 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OenRefi
 > Spalte "Eingangsjahr" -> Facet -> Scatterplot Facet...
 
 - die Daten der **Spalte "Eingangsjahr"** sollen mit den Daten der **Spalte "Fotodokumentation"** verglichen werden
-- dafür müssen noch die Werte aus der Fotodokumentation zu Zahlenwerten umgewandelt werden
+- dafür müssen noch die Werte aus der Spalte Eingangsjahr zu Zahlenwerten umgewandelt werden. Für die Spalte etwas nach links scrollen, zwischen Messung und Beschreibung/Transkription
 - Auf **Edit Cells** und gleich weiter zu **Common Transforms** rutschen und dann auf **To number** klicken
-- Jetzt zurück zur **Spalte "Eingangsjahr"** und dort über **Facet** zu **Scatterplot Facet...** gehen
+- Jetzt oben bei **Spalte "Eingangsjahr"** und dort über **Facet** zu **Scatterplot Facet...** gehen
 - Ein Fenster mit einem Scatterplot öffnet sich, hier kann man zwischen linearem oder logarithmischen Plot wählen, die Anordnung der Achsen und auch die größe der Punkte wählen
 - wenn man auf die Plotdarstellung klickt, wird dieser Scatterplot in der Facet Seitenleiste dargestellt
 - hier kann man mit der Maus im Scatterplot einen Bereich markieren, in dem man an einer Stelle klickt und die Maus dann in irgendeine Richtung zieht
@@ -567,10 +580,19 @@ SODa – Sammlungen, Objekte, Datenkompetenzen: https://sammlungen.io/
 **Autoren:**
 
 - Louise Tharandt (louise.tharandt@hu-berlin.de)
-- Michael Markert (michael.markert@fau.de)
+- Michael Markert (ehemaliger Mitarbeiter)
+- Johannes Schäffer (johannes.schaeffer@hu-berlin.de)
 
 ---
 
 weitere Tutorials und Open Educational Resources: https://sammlungen.io/kb
+
+---
+
+gefördert durch:
+
+![Finanziert von der Europäischen Union](img/DE_Finanziert_von_der_Europäischen_Union_RG_NEG.png)
+
+![Gefördert durch: Bundesministerium für Forschung, Technologie und Raumfahrt](img/BMFTR_de_Web_RGB_gef_durch.jpg)
 
 ---

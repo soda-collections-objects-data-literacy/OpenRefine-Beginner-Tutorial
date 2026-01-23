@@ -1,274 +1,73 @@
-ID ;Inventarnummer;alte Inventarnummer;Objektart;Bezeichnung/Titel;Beschreibung;Anzahl Teilstücke;Hersteller (Person);Hersteller (Organisation);Herstellungsdatum;Herstellungsort;Material;Technik;Messung;Position;Beschreibung/Transkription;Sammler/Finder (Person);Eingangsjahr;Fundort;Bemerkung;Teilsammlung;Provenienz (Referenztitel);Provenienz;Erhaltungszustand;Bemerkung2;Standort;Kurztitel;Seite;Fotodokumentation;Bild;3D-Modell;Status;File;Bearbeiter;Datum2;Bearbeitungsstand;Kommentar;Taxon;Schöpfer (Person);Schöpfer (Organisation);Datierung;Ort;Bildinformation;URL Vergleichsobjekt;Kurzbeschreibung der Maßnahme;ausgeführt von Person;Technik2;Material2;Datum3;Ort2;Beschreibung der Maßnahme;Restaurierungsprotokoll;aktueller Eigentümer;3D-Modell Info;Permalink;Onlinepublikation;Konservatorische Vorgaben;Ausstellungstitel;Inhalt/Funktion für Ausstellung;Themenbereich;Präsentationsmaße;Präsentationsform (Umsetzung);Versicherungswert für Ausstellung (in €);Rechte geklärt;Leihe geklärt;aktueller Standort;aktueller Eigentümer 2;Objekte desselben geogr. Fundorts;Objekte desselben Fundorts (Flur);Objekte desselben Herstellungsorts;Objekte desselben Herstellers (Person);Objekte desselben Herstellers (Organisation);Objekte derselben Klassifikation;Objekte desselben Taxon;Leihverkehr;Ausstellungsgeschichte;gehört zu Konvolut;Konvolut besteht aus
-006-DS_AM-213:15;AM_213;;Thin Section; ;;15;;;;;;;Länge: 5cm, Breite: 5cm;;;;1982;Gothemhammar 1;;Dünnschliffsammlung;;;;;Geozentrum Nordbayern, Paläontologie FAU, Löwenichstraße 28;;;1996;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/AM_213.jpg;;;;Knoblach, Julia;13.09.18;;;;;;;;Foto zu AM_213;;;;;;;;;;;;;;;;;;;;;;;;;AM_213;AM_213;;;;AM_213;;;;;
-001-GS_H62/AH-184/186:1;H62/AH 184/186;;Graphik;Christus am Kreuz;"Über dem links im Bild dargestellten gekreuzigten Christus ist das Akronym ""INRI"" zu lesen. Darunter hat sich eine aufgewühlte Menschengruppe versammelt. Zwei Männer stehen rechts im Vordergrund und deuten auf den Leidenden. Provenienz: Graphische Sammlung der Markgrafen von Ansbach.  Dieses Objekt wurde von Beham Sebald hergestellt.";; Beham,  Sebald;;1521;Erlangen;;Holzschnitt;Höhe: 12,5cm;;;;1806;;;Graphische Sammlung;Graphische Sammlung der Markgrafen von Ansbach;Schenkungvon Graphische Sammlung der Markgrafen von Ansbach an Graphische Sammlung der Universitätsbibliothek Erlangen-Nürnberg;;;Graphische Sammlung, UB Erlangen-Nürnberg;"Bartsch 8
-Geisberg 1";"Band VIII.233.90
-Band I.163.188";1952;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-10/%20Christus_am_Kreuz.jpg ;;;;Musterfrau, Marianne;2017-02-31;in Bearbeitung;;;;;;;Foto zu H62/AH 184/186;;Beseitigung von Ölflecken;Musterfrau, Maria;;;2017-02-31;Erlangen;Beseitigung von drei kleinen Ölflecken am oberen linken Rand.;;;;;;50 Lux;;;;;;;;;;;;;;H62/AH 184/186;;"H62/AH 184/186
-H62/B 324
-H62/B 361";;"Ausleihe Holzschnitten für Ausstellung ""Holzschnitte von der Renaissance bis zum Expressionismus""";Holzschnitte von der Renaissance bis zum Expressionismus;;
-007-HH_10022:1;10022;6;;Thalictrum minus subsp. saxatile;;1;;;;;;;;;;Heller, S.;1950;Staffelberg;Felsen auf Staffelberg;Heller Herbar;;;;;Herbarium Erlangense;;;1988;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/10022.jpg;;;;;;;;Thalictrum minus subsp. saxatile;;;;;Foto zu 10022;;;;;;;;;;;;;;;;;;;;;;;;;10022;10022;;;;;10022;;;;
+ID ;Inventarnummer;alte Inventarnummer;Objektart;Bezeichnung/Titel;Beschreibung;Anzahl Teilstücke;Hersteller (Person);Hersteller (Organisation);Herstellungsdatum;Herkunftsort;Material;Technik;Messung;Eingangsjahr;Beschreibung/Transkription;Fundort;Bemerkung;Teilsammlung;Provenienz (Referenztitel);Provenienz;Erhaltungszustand;Standort;Ort;Fotodokumentation;Fotograf;Bild;Status;File;Bearbeiter;Bearbeitungsdatum;Bearbeitungsstand;Kommentar
+006-DS_AM-213:15;AM_213;;Thin Section; ;;15;;;;Gothemhammar;;;Länge: 5cm, Breite: 5cm;1982;;Gothemhammar 1;;Dünnschliffsammlung;;;;Geozentrum Nordbayern, Paläontologie FAU, Löwenichstraße 28;Erlangen;5.5.1996;Fritz Pölking;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/AM_213.jpg;;;Knoblach, Julia;13.09.18;;
+001-GS_H62/AH-184/186:1;H62/AH 184/186;;Graphik;Christus am Kreuz;"Über dem links im Bild dargestellten gekreuzigten Christus ist das Akronym ""INRI"" zu lesen. Darunter hat sich eine aufgewühlte Menschengruppe versammelt. Zwei Männer stehen rechts im Vordergrund und deuten auf den Leidenden. Provenienz: Graphische Sammlung der Markgrafen von Ansbach.  Dieses Objekt wurde von Beham Sebald hergestellt.";; Beham,  Sebald;;1521;Erlangen;;Holzschnitt;Höhe: 12,5cm;1806;;;;Graphische Sammlung;Graphische Sammlung der Markgrafen von Ansbach;Schenkungvon Graphische Sammlung der Markgrafen von Ansbach an Graphische Sammlung der Universitätsbibliothek Erlangen-Nürnberg;;Graphische Sammlung, UB Erlangen-Nürnberg;Erlangen;16.10.1952;Herbert List;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-10/%20Christus_am_Kreuz.jpg;;;Musterfrau, Marianne;2017-02-31;in Bearbeitung;
+007-HH_10022:1;10022;6;;Thalictrum minus subsp. saxatile;;1;;;;Bad Staffelstein;;;;1950;;Staffelberg;Felsen auf Staffelberg;Heller Herbar;;;;Herbarium Erlangense;Erlangen;22.1.1988;Tata Ronkholz;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/10022.jpg;;;;;;
 025-KS_BM01-09:1;BM01-09;BM01/02-09;"Messsensoren/ -instrumente
 Beschleunigungsmesser";Beschleunigungsmesser Honeywell;;;;Honeywell;vor 1965;"Minneapolis
-";;;Höhe: 58mm, Breite: 82mm, Länge: 149mm, Gewicht: 0,40kg;;"Accelerometer Stock Nr. 6400- 001125; MFRS Part Nr. GG22B1; Series 3; Serial Nr. N- 51; Order Nr. AF-30475; US Property Minneapolis Honeywell Regulator Co. Doelcam Division. 
-+ Identifizierungsträger mit entspr. lnv.- Nr. und Versorgungsnummer 1280-00-300-8754";;2015;;;Kreisel Sammlung;Luftwaffenparkregiment I in Erding;WissKI Entity 340330;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;Universität Stuttgart;;;;;;;;;;;;;;;;;;;"BM01-09
-WK12-10";"BM01-09
-BM03-09";;;;;
+";;;Höhe: 58mm, Breite: 82mm, Länge: 149mm, Gewicht: 0,40kg;2015;"Accelerometer Stock Nr. 6400- 001125; MFRS Part Nr. GG22B1; Series 3; Serial Nr. N- 51; Order Nr. AF-30475; US Property Minneapolis Honeywell Regulator Co. Doelcam Division. 
++ Identifizierungsträger mit entspr. lnv.- Nr. und Versorgungsnummer 1280-00-300-8754";;;Kreisel Sammlung;Luftwaffenparkregiment I in Erding;WissKI Entity 340330;;;Nürnberg;3-3-16;Thyra Schmidt;;;;;;;
 026-KS_BM03-09:1;BM03-09;;"Messsensoren/ -instrumente
-Beschleunigungsmesser";Beschleunigungsmesser B-280 LITEF;;;;LITEF;1980;Freiburg;;;Höhe: 32mm, Breite: 46mm, Länge: 89mm, Gewicht: 0,40kg;;"Type B-280; Accelerometer PN 108790-300, LITEF; D7800 Freiburg Germany";;2015;;;Kreisel Sammlung;;;geschnitten;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;BM03-09;"BM01-09
-BM03-09";;;;;
+Beschleunigungsmesser";Beschleunigungsmesser B-280 LITEF;;;;LITEF;1980;Freiburg;;;Höhe: 32mm, Breite: 46mm, Länge: 89mm, Gewicht: 0,40kg;2015;"Type B-280; Accelerometer PN 108790-300, LITEF; D7800 Freiburg Germany";;;Kreisel Sammlung;;;geschnitten;;Nürnberg;3-3-16;Thyra Schmidt;;;;;;;
 027-KS_WK01-09:1;WK01-09;WK01/02-09;"Kreiselinstrumente und Komponente
-Wendekreisel";Wendekreisel;;;;R.C. Allen (Lizenz W. Ludolph);1952 - ca. 1968;Wichita;;;Höhe: 77mm, Breite: 82mm, Länge: 164mm, Gewicht: 0,90kg;;"Hinten. Indicator Tum & Slip, 4 - MIN TURN., MS28024-1, Stock No. 6053-R.C.A.2,   MFR'S Part No R.C.A. 2,  MFR'S Serial No AF 53- 29370,  Contract No. AF 23361,  Electric 28 V DC SYS.
+Wendekreisel";Wendekreisel;;;;R.C. Allen (Lizenz W. Ludolph);1952 - ca. 1968;Wichita;;;Höhe: 77mm, Breite: 82mm, Länge: 164mm, Gewicht: 0,90kg;2015;"Hinten. Indicator Tum & Slip, 4 - MIN TURN., MS28024-1, Stock No. 6053-R.C.A.2,   MFR'S Part No R.C.A. 2,  MFR'S Serial No AF 53- 29370,  Contract No. AF 23361,  Electric 28 V DC SYS.
 R C. Allen Business Machines Inc. Property - U.S. Govemment Vorne: 4 Min Tum.; im Display: DC. ELEC.; oben: Aufkleber: BWB 680, W. Ludolph Bremerhaven Rep am 13.5.[?]
-Prüfstempel [?] + Identifizierungsträger mit entspr. Inv.- Nr. und Versorgungsnummer 6610-00-388-0068";;2015;;;Kreisel Sammlung;Luftwaffenparkregiment I in Erding;WissKI Entity 1572;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;WK01-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Prüfstempel [?] + Identifizierungsträger mit entspr. Inv.- Nr. und Versorgungsnummer 6610-00-388-0068";;;Kreisel Sammlung;Luftwaffenparkregiment I in Erding;WissKI Entity 1572;;;Nürnberg;3-3-16;Thyra Schmidt;;;;;;;
 028-KS_WK12-10:1;WK12-10;WK09/17-10;"Kreiselinstrumente und Komponente
-Wendekreisel";Wendekreisel;;;;Honeywell;ca. 1968;Offenbach;;;Höhe: 31mm, Breite: 31mm, Länge: 143mm, Gewicht: 0,15mm;;Rate Gyro, Honeywell Made in  Germany, Model No. GG 164A3, Serial No. AF2, Part No. 939540-2, Motor 26V, 400 CPS, 2 ? Pickoff Excitation 6.3 V, 175 MA, 400 CPS, MFD Okt 1968;;2015;;;Kreisel Sammlung;;;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"BM01-09
-WK12-10";"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
-039-KS_LK05/02-17:2;LK05/02-17;;Verpackung;Verpackung für Lagekreisel G200;;2;;;;;;;Höhe: 250mm, Durchmesser: 255mm, Gewicht: 1,95kg;;604900-3 (RSPL I/N 10403), Gyro S/N 9393, QTY 1 Each;;2015;;;Kreisel-sammlung;;;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;LK05/02-17;;;;;
+Wendekreisel";Wendekreisel;;;;Honeywell;ca. 1968;Offenbach;;;Höhe: 31mm, Breite: 31mm, Länge: 143mm, Gewicht: 0,15mm;2015;Rate Gyro, Honeywell Made in  Germany, Model No. GG 164A3, Serial No. AF2, Part No. 939540-2, Motor 26V, 400 CPS, 2 ? Pickoff Excitation 6.3 V, 175 MA, 400 CPS, MFD Okt 1968;;;Kreisel Sammlung;;;;;Nürnberg;3-3-16;Thyra Schmidt;;;;;;;
+039-KS_LK05/02-17:2;LK05/02-17;;Verpackung;Verpackung für Lagekreisel G200;;2;;;;Tuebingen;;;Höhe: 250mm, Durchmesser: 255mm, Gewicht: 1,95kg;2015;604900-3 (RSPL I/N 10403), Gyro S/N 9393, QTY 1 Each;;;Kreisel-sammlung;;;;;Nürnberg;3-3-16;Thyra Schmidt;;;;;;;
 040-KS_KR04-17:1;KR04-17;SO28/29-09;"Kreiselinstrumente und Komponente
 Kreiselrotor
-Komponente";Läufer;;;;;;;;;Höhe: 58mm, Durchmesser: 58mm, Gewicht: 0,30kg;;"Läufer in Gehäuse, Anschlüsse U, W, V; Aufdruck auf Gehäuse: [unleserlich], auf Läufer: 7 + [Aufdruck unleserlich]";;2015;;;Kreisel-sammlung;;;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Komponente";Läufer;;;;;;Harlingen;;;Höhe: 58mm, Durchmesser: 58mm, Gewicht: 0,30kg;2015;"Läufer in Gehäuse, Anschlüsse U, W, V; Aufdruck auf Gehäuse: [unleserlich], auf Läufer: 7 + [Aufdruck unleserlich]";;;Kreisel-sammlung;;;;;Nürnberg;3-3-16;Thyra Schmidt;;;;;;;
 041-KS_KR07-17:1;KR07-17;SO31-09;"Kreiselinstrumente und Komponente
 Kreiselrotor
-Komponente";Kreiselrotor;;;;Kreiselgeräte Berlin;;Berlin;;;Höhe: 65mm, Breite: 80mm, Länge: 125mm, Gewicht: 0,80kg;;Kreiselgeräte Berlin KA 7, 180 V 500~ // Nach 3000 Betriebsstunden Lager wechseln und Fett erneuern. Nur Calypsol 285. Nach Vorschrift verwenden. // Läufer 2307;;2015;;;Kreisel-sammlung;;;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;KR07-17;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Komponente";Kreiselrotor;;;;Kreiselgeräte Berlin;;Berlin;;;Höhe: 65mm, Breite: 80mm, Länge: 125mm, Gewicht: 0,80kg;2015;Kreiselgeräte Berlin KA 7, 180 V 500~ // Nach 3000 Betriebsstunden Lager wechseln und Fett erneuern. Nur Calypsol 285. Nach Vorschrift verwenden. // Läufer 2307;;;Kreisel-sammlung;;;;;Nünberg;4-3-16;Thyra Schmidt;;;;;;;
 029-KS_WZ03-09:1;WZ03-09;;"Kreiselinstrumente und Komponente
 Wendekreisel
-Wendezeiger";Wendezeiger ohne Dämpfung 28 V;;;;Kelvin & Hughes;;London;;;Höhe: 104mm, Breite: 99mm, Länge: 150mm, Gewicht: 1,05kg;;[4324] Vorne D C. Elec. Hinten EM 40281 AEM 4029-1;;2015;;;Kreiselsammlung;;;geschnitten und lauffähig;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;WZ03-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Wendezeiger";Wendezeiger ohne Dämpfung 28 V;;;;Kelvin & Hughes;;London;;;Höhe: 104mm, Breite: 99mm, Länge: 150mm, Gewicht: 1,05kg;2015;[4324] Vorne D C. Elec. Hinten EM 40281 AEM 4029-1;;;Kreiselsammlung;;;geschnitten und lauffähig;;Nünberg;4-3-16;Thyra Schmidt;;;;;;;
 030-KS_WZ05-09:1;WZ05-09;WZ05/06-09;"Kreiselinstrumente und Komponente
 Wendekreisel
-Wendezeiger";Wendezeiger;;;;Apparatebau Gauting;vor 1965;München;;;Höhe: 59mm, Breite: 59mm, Länge: 144mm, Gewicht: 0,45kg;;"Oben (Tesa-Aufkleber): Flugzeug-Nr.: AA - 169 Geräte-Nr.: 6451 Kontrolle: 95:00, 49 Mon. (nur dieses Gerät mit Idenzifizierungsträger); Oben. Elektr. Wendezeiger 4 V [0.06A] Typ: Wz 402/4 Werk Nr. 6451 SAE Spec AS 395 Apparatebau Gauting;
-beide hinten gesichert mit Draht und Plombe; unten: Aufschrift: Ausschussteil - nicht einabuen - Nur für Ausbildungszwecke + Identifizierungsträger mit entspr. lnv - Nr. und Versorgungsnummer 6610-12-127-5018";;2015;;;Kreiselsammlung;Luftwaffenparkregiment I in Erding;WissKI Entity 340354;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;WZ05-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Wendezeiger";Wendezeiger;;;;Apparatebau Gauting;vor 1965;München;;;Höhe: 59mm, Breite: 59mm, Länge: 144mm, Gewicht: 0,45kg;2015;"Oben (Tesa-Aufkleber): Flugzeug-Nr.: AA - 169 Geräte-Nr.: 6451 Kontrolle: 95:00, 49 Mon. (nur dieses Gerät mit Idenzifizierungsträger); Oben. Elektr. Wendezeiger 4 V [0.06A] Typ: Wz 402/4 Werk Nr. 6451 SAE Spec AS 395 Apparatebau Gauting;
+beide hinten gesichert mit Draht und Plombe; unten: Aufschrift: Ausschussteil - nicht einabuen - Nur für Ausbildungszwecke + Identifizierungsträger mit entspr. lnv - Nr. und Versorgungsnummer 6610-12-127-5018";;;Kreiselsammlung;Luftwaffenparkregiment I in Erding;WissKI Entity 340354;;;Nünberg;4-3-16;Thyra Schmidt;;;;;;;
 031-KS_WKI01-09:1;WKI01-09;;"Kreiselinstrumente und Komponente
 Wendekreisel
-Integrierender Wendekreisel";Integrierender Wendekreise mit Wirbelstrom-Dämpfung;;;;;;;;;Höhe: 210mm, Breite: 320mm, Länge: 350mm, Gewicht: 11,50kg;;;;2015;;;Kreiselsammlung;;;geschnitten und lauffähig;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Integrierender Wendekreisel";Integrierender Wendekreise mit Wirbelstrom-Dämpfung;;;;;;Nürtingen;;;Höhe: 210mm, Breite: 320mm, Länge: 350mm, Gewicht: 11,50kg;2015;;;;Kreiselsammlung;;;geschnitten und lauffähig;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
 032-KS_KH09-09:1;KH09-09;KH08/10-09;"Kreiselinstrumente und Komponente
-Kreiselhorizont";Bediengerät zur Plattform SYP820;;;;Sperry;vor Sep. 1988;Überlingen;;;Höhe: 48mm, Breite: 145mm, Länge: 148mm, Gewicht: 0,55kg;;"Alte Beschriftung: Ruhr-Universität Bochum Ord.-Nr.: 534021; Inv -Nr.: 824074+3; Modell-Serien- Nr.: VIN6615-00320; oben: VN6615-00-320-8295; Bediengerät SYP 820; Teil Nr. 151 20 10-901; Vers. Nr. [leer]; Ser Nr. 1309, Dat.: Nov. [1969];
+Kreiselhorizont";Bediengerät zur Plattform SYP820;;;;Sperry;vor Sep. 1988;Überlingen;;;Höhe: 48mm, Breite: 145mm, Länge: 148mm, Gewicht: 0,55kg;2015;"Alte Beschriftung: Ruhr-Universität Bochum Ord.-Nr.: 534021; Inv -Nr.: 824074+3; Modell-Serien- Nr.: VIN6615-00320; oben: VN6615-00-320-8295; Bediengerät SYP 820; Teil Nr. 151 20 10-901; Vers. Nr. [leer]; Ser Nr. 1309, Dat.: Nov. [1969];
 Bodenseewerk Gerätetechnik GmbH, Lizenz Sperry; Hersteller: Apparatebau Gauting GmbH; Apparatebau Gauting, Repaired; Date Apr 82. Inspector BWB 1235.;
-seitlich: speed knots x100; dial ADJ, dial lock; seitlich: Lattitude, dail ADJ, dial lock; vorne: North Plattform slave, etc.";;2015;;;Kreiselsammlung;Universität Bochum - Lehrstuhl für Sportmedizin und Sporternährung;WissKI Entity 340364;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;KH09-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+seitlich: speed knots x100; dial ADJ, dial lock; seitlich: Lattitude, dail ADJ, dial lock; vorne: North Plattform slave, etc.";;;Kreiselsammlung;Universität Bochum - Lehrstuhl für Sportmedizin und Sporternährung;WissKI Entity 340364;;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
 033-KS_KH15-09:1;KH15-09;KH11/15-09;"Kreiselinstrumente und Komponente
-Kreiselhorizont";Künstlicher Horizont;;;;Bendix Aviation Corp;;;;;Höhe: 85mm, Breite: 85mm, Länge: 195mm, Gewicht: 1,20kg;;"Indicator attitude Type J-8 Specification MIL I-5133 B, Stock Nr. AF 6034-14602-IJ-DI, MFR'S Part No. 14602-IJ-DI; MFR'S Serial Nr.: AF 52-9895U,  Bendix Aviation Corporation, Eclipse-Pioneer Division.; Aufgemaltes E; 
- oben: Aufkleber: Apparatebau Gauting G.m.b.H. Inspector BWB 756, restliche Aufkleber zerrissen.";;2015;;;Kreiselsammlung;;;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;KH15-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Kreiselhorizont";Künstlicher Horizont;;;;Bendix Aviation Corp;;Gauting;;;Höhe: 85mm, Breite: 85mm, Länge: 195mm, Gewicht: 1,20kg;2015;"Indicator attitude Type J-8 Specification MIL I-5133 B, Stock Nr. AF 6034-14602-IJ-DI, MFR'S Part No. 14602-IJ-DI; MFR'S Serial Nr.: AF 52-9895U,  Bendix Aviation Corporation, Eclipse-Pioneer Division.; Aufgemaltes E; 
+ oben: Aufkleber: Apparatebau Gauting G.m.b.H. Inspector BWB 756, restliche Aufkleber zerrissen.";;;Kreiselsammlung;;;;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
 034-KS_KK02-09:1;KK02-09;;"Kreiselinstrumente und Komponente
-Kurskreisel";Kurskreisel mit Libelle;;;;Siemens;2. Weltkrieg;;;;Höhe: 137mm, Breite: 120mm, Länge: 184mm, Gewicht: 2,20kg;;"Kurskreisel Bauart Siemens- LGW Gerät Nr 127- 210 A-2, Anf.-Z. FI 22561, Werk- Nr 737940, Hersteller Luftfahrtgerätewerk Hakenfelde GmbH// vorne: Bei eingedrückten Knopf Kurststeuerung ausgekuppelt.
-+ handschriftlich, oben auf Geräte: 2'44'' ?laufzeit, vermutlich aus";;2015;;;Kreiselsammlung;;;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;KK02-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Kurskreisel";Kurskreisel mit Libelle;;;;Siemens;2. Weltkrieg;Hakenfelde (Berlin);;;Höhe: 137mm, Breite: 120mm, Länge: 184mm, Gewicht: 2,20kg;2015;"Kurskreisel Bauart Siemens- LGW Gerät Nr 127- 210 A-2, Anf.-Z. FI 22561, Werk- Nr 737940, Hersteller Luftfahrtgerätewerk Hakenfelde GmbH// vorne: Bei eingedrückten Knopf Kurststeuerung ausgekuppelt.
++ handschriftlich, oben auf Geräte: 2'44'' ?laufzeit, vermutlich aus";;;Kreiselsammlung;;;;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
 035-KS_KK03-09:1;KK03-09;;"Kreiselinstrumente und Komponente
-Kurskreisel";Kurskreisel;;;;Bezu;vermutl. 1957;;;;Höhe: 85mm, Breite: 85mm, Länge: 205mm, Gewicht: 2,00kg;;"Societe de Fabrication d'Instruments de Mesure; Compas gyromagnetique S.F.I.M. _BEZU Partie gyroscopique Type: 9551; No 376, Date de fabrication 2.57; Fin de garantie 3.58. Controle [?]";;2015;;;Kreiselsammlung;;;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;KK03-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Kurskreisel";Kurskreisel;;;;Bezu;vermutl. 1957;Saint-Arnoult en Yvelines;;;Höhe: 85mm, Breite: 85mm, Länge: 205mm, Gewicht: 2,00kg;2015;"Societe de Fabrication d'Instruments de Mesure; Compas gyromagnetique S.F.I.M. _BEZU Partie gyroscopique Type: 9551; No 376, Date de fabrication 2.57; Fin de garantie 3.58. Controle [?]";;;Kreiselsammlung;;;;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
 036-KS_KK23-09:1;KK23-09;;"Kreiselinstrumente und Komponente
-Kreiselkompass";Kreiselkugel;;;;Anschütz;;;;;Höhe: 149mm, Breite: 159mm, Länge: 270mm, Gewicht: 2,25kg;;"Kreiselkompass Standard 6; / Kreiselkugel, Anschütz";;2015;;;Kreiselsammlung;;;geschnitten;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;KK23-09;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Kreiselkompass";Kreiselkugel;;;;Anschütz;;Berlin;;;Höhe: 149mm, Breite: 159mm, Länge: 270mm, Gewicht: 2,25kg;2015;"Kreiselkompass Standard 6; / Kreiselkugel, Anschütz";;;Kreiselsammlung;;;geschnitten;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
 037-KS_LK01-09:1;LK01-09;;"Kreiselinstrumente und Komponente
-Lagekreisel";Stabilisierungskreisel für Abwehrrakete;;;;;;;;;Höhe: 126mm, Breite: 77mm, Länge: 102mm, Gewicht: 0,40kg;;Lagekreisel Schnurantrieb 12000 U/min;;2015;;;Kreiselsammlung;;;geschnitten;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
+Lagekreisel";Stabilisierungskreisel für Abwehrrakete;;;;;;Belin;;;Höhe: 126mm, Breite: 77mm, Länge: 102mm, Gewicht: 0,40kg;2015;Lagekreisel Schnurantrieb 12000 U/min;;;Kreiselsammlung;;;geschnitten;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
 038-KS_LK05/01-17:1;LK05/01-17;SO40-09;"Kreiselinstrumente und Komponente
-Lagekreisel";Lagekreisel G200 der LN3- Plattform;;2;;Litton;vor Sep. 1968;;;;Höhe: 80mm, Breite: 99mm, Länge: 105mm, Gewicht: 0,95kg;;;;2015;;;Kreiselsammlung;Litton Technische Werke Freiburg;WissKI Entity 340388;;;;;;2016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;LK05/01-17;"WK01-09 
-WK12-10
-WZ03-09
-WZ05-09
-WKI01-09
-KH09-09
-KH15-09
-KK02-09
-KK03-09
-KK23-09
-LK01-09
-LK05/01-17 
-KR04-17
-KR07-17";;;;;
-024-LKST_X:1;X;;Modell;Doppelschnecken-Extruder, gegenläufig;;1?;;;;;;;Gewicht: 2kg, Höhe: 10cm;;;;1976;;;Lehrsammlung Kunststofftechnik Stuttgart;;;gut;;;;;2016;;;;;;30.07.2019;in Bearbeitung;;"Kunststoffproduktion
-Grundvorlesung Kunststofftechnik (GKT)";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;noch nicht vergeben;noch nicht vergeben;;;;
-014-L_ET-2a:3;ET 2a;ET 2a;Materialprobe;Materialprobe;;3;;;;;;;;;;;1953;Emmerthal;;Lithothek;;;;;;;;1980;"http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-03/IMG_5828_0.JPG
-http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-03/IMG_5833.JPG";;;;Spies, Benjamin;11.03.19;;;;;;;;"Foto zu ET 2a
-Foto zu ET 2a";;;;;;;;;;;;;;;;;;;;;;;;;ET 2a;ET 2a;;;;"ET 2a
-NZ 1";;;;;
-015-L_NZ-1:6;NZ 1;NZ 1;Materialprobe;Materialprobe;glatter Hornstein mit Fossilien, Knolle mit dicker angerundeter Cortex;6;;;;Zeitarn bei Vilshofen;;;;;;;1954;Prallhang der Wolfach;;Litothek;;;;;;;;1962;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-03/IMG_3149.JPG;;;;;;;;;;;;;Foto zu NZ 1;;;;;;;;;;;;;;;;;;;;;;;;;NZ 1;NZ 1;NZ 1;;;"ET 2a
-NZ 1";;;;;
-005-MS_2017-34:1;2017-34;;Geburtszange;Geburtszange, van der Laar;"Griff aus Holz, Löffel aus Metall. Englisches Fugen-, Gleitschloss nach Smellie. Aufkleber: ""v. d. Laar""";; van der Laar;;1777;;"Holz
-Metall";;Länge: 37cm, Breite: 6cm, Höhe: 8cm, Gewicht: 586g;auf dem Schaft der Zange;"BOGNER
-Bildmarke: Kleeblatt";;2017;;;Medizinische Sammlung;;Übernahme 2017, von Universitätsklinikum Erlangen, Frauenklinik an FAU Erlangen-Nürnberg, Medizinische Sammlung;verrostet;;;;;1962;"http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/2017-34.1.JPG
-http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/%202018-11/2017-34.3.JPG
-http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/2017-34.2.JPG";;vorhanden;;Berges-Grunert, Johanna;20.08.18;;;;;;;;"Foto zu 2017-34
-Foto zu 2017-34
-Foto zu 2017-34";;;;;;;;;;;;;;;;;;;;;;;;;;;;2017-34;;2017-34;;;;;
+Lagekreisel";Lagekreisel G200 der LN3- Plattform;;2;;Litton;vor Sep. 1968; Beverly Hills;;;Höhe: 80mm, Breite: 99mm, Länge: 105mm, Gewicht: 0,95kg;2015;;;;Kreiselsammlung;Litton Technische Werke Freiburg;WissKI Entity 340388;;;Nürnberg;4-3-16;Thyra Schmidt;;;;;;;
+024-LKST_X:1;X;;Modell;Doppelschnecken-Extruder, gegenläufig;;1?;;;;;;;Gewicht: 2kg, Höhe: 10cm;1976;;;;Lehrsammlung Kunststofftechnik Stuttgart;;;gut;;Stuttgart;4-3-16;Thyra Schmidt;;;;Musterfrau, Marianne;30.07.2019;in Bearbeitung;
+014-L_ET-2a:3;ET 2a;ET 2a;Materialprobe;Materialprobe;;3;;;;Emmerthal;;;;1953;;Emmerthal;;Lithothek;;;;;Erlangen;31.11.1980;Christian von Alvensleben;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-03/IMG_5828_0.JPG , http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-03/IMG_5833.JPG;;;Spies, Benjamin;11.03.19;;
+015-L_NZ-1:6;NZ 1;NZ 1;Materialprobe;Materialprobe;glatter Hornstein mit Fossilien, Knolle mit dicker angerundeter Cortex;6;;;;Zeitarn bei Vilshofen;;;;1954;;Prallhang der Wolfach;;Litothek;;;;;Erlangen;2.12.1962;Herbert List;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-03/IMG_3149.JPG;;;;;;
+005-MS_2017-34:1;2017-34;;Geburtszange;Geburtszange, van der Laar;"Griff aus Holz, Löffel aus Metall. Englisches Fugen-, Gleitschloss nach Smellie. Aufkleber: ""v. d. Laar""";; van der Laar;;1777;s-Hertogenbosch;"Holz
+Metall";;Länge: 37cm, Breite: 6cm, Höhe: 8cm, Gewicht: 586g;2017;"BOGNER
+Bildmarke: Kleeblatt";;;Medizinische Sammlung;;Übernahme 2017, von Universitätsklinikum Erlangen, Frauenklinik an FAU Erlangen-Nürnberg, Medizinische Sammlung;verrostet;;Erlangen;2.12.1962;Herbert List;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/2017-34.1.JPG , http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/%202018-11/2017-34.3.JPG , http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/2017-34.2.JPG;vorhanden;;Berges-Grunert, Johanna;20.08.18;;
 009-MS_0/1.1-0/1.16:16;0/1.1-0/1.16;;Instrument;Kugelresonatoren;"Sechzehn verschieden große Hohlkugeln mit je einer weiten Öffnung und gegenüberliegend einem kurzen Hals mit enger Öffnung. Hermann v. Helmholtz hat mit diesen Instrumenten den Einfluss des äußeren Gehörganges auf die individuellen Hörschwellen des menschlichen Ohres geklärt. Bringt man den Hals des Resonators in den äußeren Gehörgang ein und beschallt das Ohr über die große Öffnung, verstärkt der Hohlkörper gemäß seiner schallphysikalischen Dimensionierung bestimmte Schallfrequenzen, wodurch sich das Hörvermögen des Ohres im jeweiligen Frequenzbereich verbessert. 
-Die Luft in einem solchen Resonator zeigt ein harmonisches Schwingverhalten, wobei die Luft innerhalb der Ansatzstücke als Masse, innerhalb der Kugel als Feder wirkt. Die typische Resonanzfrequenz ist von der Größe des eingeschlossenen Luftvolumens sowie von der Weite und Länge der Ansatzstücke abhängig. Die Resonatoren und die sie begleitenden Erkenntnisse hat Helmholtz 1862 in seinem Meisterwerk Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik beschrieben. Dieses Werk revolutionierte die akustische Forschung.   Die Helmholtz-Resonatoren spielen auch heute noch eine große Rolle in der modernen Schalltechnologie, wenn es darum geht, Schall zu absorbieren, zu dämpfen oder Konzertsäle für optimale Hörempfindungen zu konstruieren. Auch für die Erklärung artikulatorischer Formungen der menschlichen Sprache bilden sie eine wichtige theoretische Grundlage. PB.";16;Hermann von Helmholtz;;vor 1863;;Messing;"Drehen
-Metallguß";;;;;2017;;;Medizinische Sammlung;;;;;;;;2018;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/content.800.png;;;;;;;;;;;;;Foto zu 0/1.1-0/1.16;;;;;;;;;;;;;;;;;;;;;;;;;;;;0/1.1-0/1.16;;0/1.1-0/1.16;;;;;
-016-MS_10.5.3/4:1;10.5.3/4;;Unterrichtsmittel;Spektroskop mit Gusseisenständer;;;;A. Krüss (Firma);;Hamburg;Gusseisen;;;;;;2017;;;Medizinische Sammlung;;;;;;;;2018;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-04/Spektroskop.jpg;;;;;;;;;;;;;Foto zu 10.5.3/4;;;;;;;;;;;;;;;;;;;;;;;;;;;10.5.3/4;;10.5.3/4;10.5.3/4;;;;;
-017-MS_2017-75:1;2017-75;;Hörrohr;Hörrohr;;;;;;;Holz;;Länge: 17cm, Gewicht: 27g, Durchmesser: 6cm;auf dem Rohr;KRS.;;2017;;;Medizinische Sammlung;;Übernahme 2017, von Universitätsklinikum Erlangen, Frauenklinik an FAU Erlangen-Nürnberg, Medizinische Sammlung;;;;;;2018;;;;;;;;;;;;;;"Foto zu 2017-75
-Foto zu 2017-75";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2017-75;;;;;
+Die Luft in einem solchen Resonator zeigt ein harmonisches Schwingverhalten, wobei die Luft innerhalb der Ansatzstücke als Masse, innerhalb der Kugel als Feder wirkt. Die typische Resonanzfrequenz ist von der Größe des eingeschlossenen Luftvolumens sowie von der Weite und Länge der Ansatzstücke abhängig. Die Resonatoren und die sie begleitenden Erkenntnisse hat Helmholtz 1862 in seinem Meisterwerk Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik beschrieben. Dieses Werk revolutionierte die akustische Forschung.   Die Helmholtz-Resonatoren spielen auch heute noch eine große Rolle in der modernen Schalltechnologie, wenn es darum geht, Schall zu absorbieren, zu dämpfen oder Konzertsäle für optimale Hörempfindungen zu konstruieren. Auch für die Erklärung artikulatorischer Formungen der menschlichen Sprache bilden sie eine wichtige theoretische Grundlage. PB.";16;Hermann von Helmholtz;;vor 1863;Berlin;Messing;"Drehen
+Metallguß";;2017;;;;Medizinische Sammlung;;;;;Erlangen;18.2.2018;Johanna-Maria Fritz;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/content.800.png;;;;;;
+016-MS_10.5.3/4:1;10.5.3/4;;Unterrichtsmittel;Spektroskop mit Gusseisenständer;;;;A. Krüss (Firma);;Hamburg;Gusseisen;;;2017;;;;Medizinische Sammlung;;;;;Erlangen;30.5.2018;Johanna-Maria Fritz;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-04/Spektroskop.jpg;;;;;;
+017-MS_2017-75:1;2017-75;;Hörrohr;Hörrohr;;;;;;Ingolstatd;Holz;;Länge: 17cm, Gewicht: 27g, Durchmesser: 6cm;2017;KRS.;;;Medizinische Sammlung;;Übernahme 2017, von Universitätsklinikum Erlangen, Frauenklinik an FAU Erlangen-Nürnberg, Medizinische Sammlung;;;Erlangen;6.1.2018;;;;;;;;
 011-UR_R-23:1;R 23;;Flöteninstrument;Panpfeife;"moderne Panpfeife mit 19 Pfeifen aus Rohr mit Stöpseln am unteren Ende; 
 längste bzw. tiefste Pfeife (h1) in der Mitte, die anderen Pfeifen der Länge nach jeweils seitlich symmetrisch angeordnet bis d4 (links) und cis4 (rechts); 
 Pfeifen durch Draht (Metall) zusammengehalten und mit beidseitiger Halterung mittels Fichtenplatte;
 Tonhöhen der Pfeifen: h1, dis2, e2, gis2, a2, h2 (doppelt), cis3, dis3 (doppelt), f3, fis3 (doppelt), gis3, a3, b3, h3, cis4, d4;
-Pfeifenlängen zwischen 19,60 cm und 8,40 cm; Durchmesser jeweils ca. 0,60 cm;";;;;1950er Jahre;;"Fichte (Holz)
+Pfeifenlängen zwischen 19,60 cm und 8,40 cm; Durchmesser jeweils ca. 0,60 cm;";;;;1950er Jahre;Stuttgart;"Fichte (Holz)
 Metall
-Rohr";;Pfeifendurchmesser: ca. 0,60cm, Länge der tiefsten Pfeife: 19,60cm, Länge der höchsten Pfeife: 8,40cm;;;;1962;;;Sammlung Ullrich Rück;;;;Objekteintrag auf der Homepage der Studiensammlung Musikinstrumente & Medien: http://www.musikwissenschaft.uni-wuerzburg.de/instrumente/bestand/kurzliste/r23-lo93-panfloeten/;;Eschler, 1993;21;1964;;;;;Hansen, Janne;18.02.19;;;;;;;;Foto zu R 23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"R 27
-R 23";;;;;
-042-UR_R-14:1;R 14;;Klavier;Hammerflügel;"Hammerflügel aus dem späten 18. Jahrhundert; äußerlich viel Nussbaum; vier schlanke, im Querschnitt runde, nach unten verjüngende Beine; Notenpult aus Ahorn mit vier mit grünlicher Seide bespannten Feldern über die gesamte Breite des Instruments;   Obertasten der Klaviatur mit Knochenauflage, Untertasten mit Ebenholzauflage.";;Schiedmayer, Johann David;;1780er Jahre;;"Fichte (Holz)
+Rohr";;Pfeifendurchmesser: ca. 0,60cm, Länge der tiefsten Pfeife: 19,60cm, Länge der höchsten Pfeife: 8,40cm;1962;;;;Sammlung Ullrich Rück;;Objekteintrag auf der Homepage der Studiensammlung Musikinstrumente & Medien: http://www.musikwissenschaft.uni-wuerzburg.de/instrumente/bestand/kurzliste/r23-lo93-panfloeten/;;;Nürnberg;10.10.1964;Dieter Blum;;;;Hansen, Janne;18.02.19;;
+042-UR_R-14:1;R 14;;Klavier;Hammerflügel;"Hammerflügel aus dem späten 18. Jahrhundert; äußerlich viel Nussbaum; vier schlanke, im Querschnitt runde, nach unten verjüngende Beine; Notenpult aus Ahorn mit vier mit grünlicher Seide bespannten Feldern über die gesamte Breite des Instruments;   Obertasten der Klaviatur mit Knochenauflage, Untertasten mit Ebenholzauflage.";;Schiedmayer, Johann David;;1780er Jahre;Erlangen;"Fichte (Holz)
 Ahorn (Holz)
 Messing
 Obstholz
@@ -278,52 +77,29 @@ Nussbaumwurzel (Holz)
 Ebenholz
 Leder (tierisch)
 Knochen (tierisch)
-Seide";;Länge: 214,5cm, Breite: 98,4cm, Höhe: 84,6cm;;;;1962;;;Sammlung Ullrich Rück;;;gut;;;Eschler, Eschler, 1993;81-82;1964;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-11/R14_Vollansicht.jpg;https://sketchfab.com/models/3b0ca5d1fed8481f83b8747840444797;;;"Musterfrau, Marianne
-Freiberg, Michael";"2019-11-26
-04.08.2020";"zur Durchsicht
-abgeschlossen";;;;;;;Foto zu R 14;;;;;;;;;;;http://objekte-im-netz.fau.de/oindemo/id/5dde92955e8bc;http://objekte-im-netz.fau.de/musik/objekt/R_14;;;;;;;;;;;;;;;;R 14;;R 14;;;;;
+Seide";;Länge: 214,5cm, Breite: 98,4cm, Höhe: 84,6cm;1962;;;;Sammlung Ullrich Rück;;;gut;;Nürnberg;21.3.1964;Dieter Blum;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-11/R14_Vollansicht.jpg;;;Musterfrau, Marianne;2019-11-26;"zur Durchsicht
+";
 010-UR_R-27:1;R 27;;Flöteninstrument;Okarina;"Okarina (""Wiener Modell"") mit rübenförmigem Gehäuse aus gebranntem Ton, schwarz lackiert, Goldlackbemalung (Enden, Tonlochränder, Tonbuchstaben, Grifflochnummern, Stempel); mit Spalte und Labium in kreisförmigem Aufschnitt auf Unterseite; insgesammt zehn durchnummerierte Grifflöcher, acht Fingergrifflöcher auf Oberseite (Nr. 1-7 und 9) und zwei Daumenlöcher auf Unterseite (Nr. 8 und 10): 1 - d (rechts 5), 2 - e (r 4), 3 - f (r 3), 4 - g (r 2), 5 - a (links 4), 6 - h (l 3), 7 - c (l 2), 8 - d (l Daumen), 9 - e (l 5), 10 - f (r Daumen);";;;;vor 1938;Wien (Stadt);Ton;"gebrannt
 lackiert
-bemalt";Länge: 17,60cm, Breite: 8,50cm, Höhe: 4,25cm;"spitz zulaufendes Ende, spielerseitig
-stumpf zulaufendes Ende
-Anblasende, Oberseite";"Stempel ""Made in Austria""
+bemalt";Länge: 17,60cm, Breite: 8,50cm, Höhe: 4,25cm;1962;"Stempel ""Made in Austria""
 zwei ineinanderlaufende runde Stempel mit Laub- und Wappenmotiv (nicht identifiziert)
-eingestempelter Stimmton ""D""";;1962;;;Sammlung Ulrich Rück;;;;"Objekteintrag auf der Homepage der Studiensammlung Musikinstrumente &amp; Medien: http://www.musikwissenschaft.uni-wuerzburg.de/instrumente/bestand/kurzliste/r27-lo1-2-okarinas/";;Eschler, 1993;35;1964;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-02/r27_okarina.png;;;;Hansen, Janne;18.02.19;zur Durchsicht;;;;;;;Foto zu R 27;;;;;;;;;;;;;;;;;;;;;;;;;;;R 27;;;"R 27
-R 23";;;;;
-002-UR_R-10:1;R 10;;Musikinstrument;Spinett;"Spinett mit rechteckigem Gehäuse und einspringender Klaviatur; hauptsächlich Ahorn, Unterboden aus Fichte; geteilter Lautenzug (Teilung bei c1/cis1);   vier Beine mit Ahorn furniert und Fußklötzchen aus Ahorn, unten Putzwasserschäden; Besaitung einchörig aus Stahl, umsponnen von F1-D, ab Es blank;";;Marx, Otto;;1957;;"Metall (Stahlsaiten)
+eingestempelter Stimmton ""D""";;;Sammlung Ulrich Rück;;"Objekteintrag auf der Homepage der Studiensammlung Musikinstrumente &amp; Medien: http://www.musikwissenschaft.uni-wuerzburg.de/instrumente/bestand/kurzliste/r27-lo1-2-okarinas/";;;Nürnberg;19.8.1964;Dieter Blum;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-02/r27_okarina.png;;;Hansen, Janne;18.02.19;zur Durchsicht;
+002-UR_R-10:1;R 10;;Musikinstrument;Spinett;"Spinett mit rechteckigem Gehäuse und einspringender Klaviatur; hauptsächlich Ahorn, Unterboden aus Fichte; geteilter Lautenzug (Teilung bei c1/cis1);   vier Beine mit Ahorn furniert und Fußklötzchen aus Ahorn, unten Putzwasserschäden; Besaitung einchörig aus Stahl, umsponnen von F1-D, ab Es blank;";;Marx, Otto;;1957;Stuttgart;"Metall (Stahlsaiten)
 Fichte (Holz)
-Ahorn (Holz)";;Höhe: 80,0cm, Länge: 112,1cm, Breite: 51,8cm;;;;1962;;;Sammlung Ulrich Rueck;;;;"Spinett [Virginal] (Otto Marx) - R 10 Nürnberg 1957. Otto Marx (1871–1964). Das Gehäuse, rechteckig, mit einspringender Klaviatur, besteht aus massivem Ahorn, Unterboden aus Fichte. Vier Beine, mit Ahorn furniert, Fußklötze aus Ahorn. Das Instrument besitzt, bei einem Umfang von Kontra-F bis f3, einen geteilten Lautenzug (Teilung bei c'/cis'). – Vgl. Eschler (1993), S. 72. – Beine mit Ahorn furniert, Putzwasserschäden bis 10 cm über Boden. Maße: Gesamthöhe mit Beinen und Deckel: 80 cm. – Korpusbreite ohne Sockel 111,1 cm, mit Sockel 112,2 cm. Korpushöhe 15,4 cm. Korpustiefe ohne Sockel 50,2 cm, mit Sockel 50,6 cm. – Wand-/Zargenbreite zwischen 7,5–8 mm. – Deckel 1,64 cm. Einspringende Klaviatur: 11.68 cm Tiefe, 81,6 cm Breite. Klaviatur gesamt 81,3 cm. Breite Untertasten ca. 21,5 mm, Obertasten ca 11,6 mm. – Durchmesser Rosette 6,5 cm. Saiten (einchörig), Besaitung original, durchgehend aus Stahl, von F' bis D umsponnen, ab Es blank. Länge F' 104,4 cm … f3 19,2 cm. – Mensur der Saitenpaare gleich (F'/Fis' 1,1 mm, G'/Gis' 1 mm, A'/B' 0,9, H'/C 0,8 etc., Es/E, 0,7, blank, abnehmend). Vergleichbare Vorbilder: München, Deutsches Museum Inv.-Nr. 18166; Museum für Musikinstrumente der Universität Leipzig, Inv-Nr. 65 [Virginal von Alessandro Riva, 1839]; Sammlung Rück, Inventar-Nr. R 10; Fotos: © Studiensammlung Musikinstrumente &amp; Medien der Universität Würzburg, 2014 (Oliver Wiener) Otto Marx zählt im 20. Jahrhundert zu den tätigsten Restauratoren historischer Instrumente. Als jüngster von fünf Söhnen des Klavierbauers Carl Gottlieb Marx in Dresden, erlernte den Beruf des Vaters, arbeitete unter anderem in Stuttgart bei der Firma C. A. Pfeiffer, wo er u.a. bei der Herstellung historischer Klaviermechanikmodelle tätig war. 1909 stellte ihn Wilhelm Heyer als Restaurator seines privaten Musikmuseums in Köln an. Marx folgte der Heyer-Sammlung 1926 an die Universität Leipzig, die sie erwerben konnte. Seit 1930 hatte er engen Kontakt zu Ulrich Rück in Nürnberg, für den er als Restaurator historischer Musikinstrumente zunächst auf Honorarbasis von Leipzig aus, seit 1952 in Nürnberg im Pianohaus Rück, bis ins hohe Alter von 89 Jahren tätig war. Marx restaurierte vor allem Hammerklaviere, etwa den Anton-Walter-Flügel aus dem Besitz Wolfgang Amadé Mozarts, Kielklaviere und Clavichorde. Er fertigte für Heyer, später für Rück, einige Kopien historischer Instrumente an. Beim Instrument unserer Sammlung handelt es sich um einen Eigenentwurf, die Verwirklichung eines Wunschtraums, eines kompakten Instruments mit geteiltem Lautenzug (zur Klangfarbenteilung zwischen Bass und Melodie). Literatur: Friedrich Ernst, ""Nachruf für Otto Marx"", in: Instrumentenbau-Zeitschrift, Nr. 20, 1966, S. 289 f. – Thomas Jürgen Eschler, Die Sammlung historischer Musikinstrumente des Musikwissenschaftlichen Instituts der Universität Erlangen-Nürnberg, Wilhelmshaven 1993, S. 72. – Paul Simmonds, ""What the Label does not tell us: Further Thoughts on Clavichords from the Pfeifer Workshop"", in: Clavichord International, 19/1 (Mai 2015), S. 20–27. Zur Generation der frühen Tasteninstrumenten-Restauratoren (Hermann Seyffarth, Arthur Voss, Otto Marx und Friedrich Ernst) vgl. Klaus Martius: ""Seid aus eurer Leidenschaft und nehmt euch nicht zu viel aus alten Epochen, denen ihr nicht gewachsen seid!"" Peter Harlan als Restaurator alter Musikinstrumente, in: Concerto. Das Magazin für Alte Musik, Heft Nr. 221 (August/September 2008), S. 23–28 [pdf]; – Annette Otterstedt: Friedrich Ernst und seine Kartei. Ein Pionier der Restaurierung von Musikinstrumenten, in: VDR - Beiträge zur Erhaltung von Kunst- und Kulturgut (2007, Heft 1+2), S. 76–82; – Sabine Hoffmann: Friedrich Ernst und das Trasuntino-Cembalo. Eine Restaurierungsgeschichte, ebd., S. 83–89. (Objekteintrag auf der Homepage der Studiensammlung Musikinstrumente &amp; Medien: http://www.musikwissenschaft.uni-wuerzburg.de/instrumente/bestand/kurzliste/r10-virginal-marx/ (Stand: 15.05.2018).) --- R 10 SPINETT Otto Marx Nürnberg 1957 GEHÄUSE rechteckig. Alles aus massiv Ahorn, Unterboden Fichte. 4 Beine mit Fußklötzen aus Ahorn. Geteilter Lautenzug von F1 bis c1 bzw. cis1 bis f3. Maße: Gesamtlänge: 112,1 cm Gesamtbreite: 51,8 cm Gesamthöhe (mit Deckel): 80,0 cm Umfang: F1 – f3 HERKUNFT: Stiftung Rück. (Eschler, 1993: 72.)";Raum E.8, in Residenz Würzburg;Eschler, 1993;72;1964;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-10/R10_b.jpg;;vorhanden;;Hansen, Janne;15.05.18;zur Durchsicht;;;;;;;Foto zu R 10;;;;;;;;;;;;;;;;;;;;;;;;;;;;R 10;;R 10;;;;;
-004-SGS_1.8.4/3/1:2;1.8.4/3/1;;Schulhefte und Prüfungsaufgaben der Schüler;Heimatkundeheft;Besteht aus 2 Teilen: 1.8.4/3/1 und /2;2;;;;;;;;;;;1977;;;Schulgeschichtliche Sammlung;;Schenkungvon  an Schulgeschichtliche Sammlung Nürnberg;gut;;Campus Regensburger Str.;;;2019;;;ausleihbar;;Wurst, Hans;10.09.19;zur Durchsicht;;;;;;;Foto zu 1.8.4/3/1;;;;;;;;;;;;;;50 Lux;;;;;;;;;;;;;;;;"1.8.4/3/1
-1.0.14/1";;;;;
-008-SGS_1.0.14/1:1;1.0.14/1;;Schulhefte und Prüfungsaufgaben der Schüler;Prüfung Exercitium in Examine anniversario;;1;;;;;;;;;;;1977;;;Schulgeschichtliche Sammlung;;Dauerleihgabevon  an Fridericianum Erlangen;;;Campus Regensburger Str.;;;2019;;;ausleihbar;;;;;;;;;;;Foto zu 1.0.14/1;;;;;;;;;;;;;;50 Lux;;;;;;;;;;;;;;;;"1.8.4/3/1
-1.0.14/1";;;;;
-003-UFG_Pa1565:1;Pa1565;;;Spitzschaber;;1;;;Mittel-Paläolithikum (300.000-40.000 v. Chr.);;Silex;;Länge: 6,1cm, Breite: 4,2cm;;;Hauser, Otto;2001;La Micoque, Station 1;"Begleitender Fundzettel: ""La Micoque, Station 1. Micoquien nach O. Hauser, warmes Moustérien. Die verschiedenen Spitzen des Sondertypus von La Micoque in verschiedenen Bearbeitungsstadien.""";"Ufg
-";Eingang Sammlung R. Paulsen durch Vermittlung Dr. Karl-Heinz Rieder (Landesstelle für Denkmalpflege Ingolstadt);28.11.2001von  an;;;;;;2002;"http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/ecdd9dafd510ad1d03b589524d26a629.jpg
-http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/%20d36ff07e56b6ff5dc885c81b9ab9a963.jpg
-http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/2500f74c62e8fe4b90151520928b559d.jpg
-http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/67de464f07e5d8564ba1a807ccd208f3.jpg";;vorhanden;;Seminarteilnehmer Digisamm17;09.11.017;zur Durchsicht;;;;;;;"Foto zu Pa1565
-Foto zu Pa1565
-Foto zu Pa1565
-Foto zu Pa1565";;;;;;;;;;;;;;;;;;;;;;;;;Pa1565;Pa1565;;;;;;;;;
+Ahorn (Holz)";;Höhe: 80,0cm, Länge: 112,1cm, Breite: 51,8cm;1962;;;;Sammlung Ulrich Rueck;;"Spinett [Virginal] (Otto Marx) - R 10 Nürnberg 1957. Otto Marx (1871–1964). Das Gehäuse, rechteckig, mit einspringender Klaviatur, besteht aus massivem Ahorn, Unterboden aus Fichte. Vier Beine, mit Ahorn furniert, Fußklötze aus Ahorn. Das Instrument besitzt, bei einem Umfang von Kontra-F bis f3, einen geteilten Lautenzug (Teilung bei c'/cis'). – Vgl. Eschler (1993), S. 72. – Beine mit Ahorn furniert, Putzwasserschäden bis 10 cm über Boden. Maße: Gesamthöhe mit Beinen und Deckel: 80 cm. – Korpusbreite ohne Sockel 111,1 cm, mit Sockel 112,2 cm. Korpushöhe 15,4 cm. Korpustiefe ohne Sockel 50,2 cm, mit Sockel 50,6 cm. – Wand-/Zargenbreite zwischen 7,5–8 mm. – Deckel 1,64 cm. Einspringende Klaviatur: 11.68 cm Tiefe, 81,6 cm Breite. Klaviatur gesamt 81,3 cm. Breite Untertasten ca. 21,5 mm, Obertasten ca 11,6 mm. – Durchmesser Rosette 6,5 cm. Saiten (einchörig), Besaitung original, durchgehend aus Stahl, von F' bis D umsponnen, ab Es blank. Länge F' 104,4 cm … f3 19,2 cm. – Mensur der Saitenpaare gleich (F'/Fis' 1,1 mm, G'/Gis' 1 mm, A'/B' 0,9, H'/C 0,8 etc., Es/E, 0,7, blank, abnehmend). Vergleichbare Vorbilder: München, Deutsches Museum Inv.-Nr. 18166; Museum für Musikinstrumente der Universität Leipzig, Inv-Nr. 65 [Virginal von Alessandro Riva, 1839]; Sammlung Rück, Inventar-Nr. R 10; Fotos: © Studiensammlung Musikinstrumente &amp; Medien der Universität Würzburg, 2014 (Oliver Wiener) Otto Marx zählt im 20. Jahrhundert zu den tätigsten Restauratoren historischer Instrumente. Als jüngster von fünf Söhnen des Klavierbauers Carl Gottlieb Marx in Dresden, erlernte den Beruf des Vaters, arbeitete unter anderem in Stuttgart bei der Firma C. A. Pfeiffer, wo er u.a. bei der Herstellung historischer Klaviermechanikmodelle tätig war. 1909 stellte ihn Wilhelm Heyer als Restaurator seines privaten Musikmuseums in Köln an. Marx folgte der Heyer-Sammlung 1926 an die Universität Leipzig, die sie erwerben konnte. Seit 1930 hatte er engen Kontakt zu Ulrich Rück in Nürnberg, für den er als Restaurator historischer Musikinstrumente zunächst auf Honorarbasis von Leipzig aus, seit 1952 in Nürnberg im Pianohaus Rück, bis ins hohe Alter von 89 Jahren tätig war. Marx restaurierte vor allem Hammerklaviere, etwa den Anton-Walter-Flügel aus dem Besitz Wolfgang Amadé Mozarts, Kielklaviere und Clavichorde. Er fertigte für Heyer, später für Rück, einige Kopien historischer Instrumente an. Beim Instrument unserer Sammlung handelt es sich um einen Eigenentwurf, die Verwirklichung eines Wunschtraums, eines kompakten Instruments mit geteiltem Lautenzug (zur Klangfarbenteilung zwischen Bass und Melodie). Literatur: Friedrich Ernst, ""Nachruf für Otto Marx"", in: Instrumentenbau-Zeitschrift, Nr. 20, 1966, S. 289 f. – Thomas Jürgen Eschler, Die Sammlung historischer Musikinstrumente des Musikwissenschaftlichen Instituts der Universität Erlangen-Nürnberg, Wilhelmshaven 1993, S. 72. – Paul Simmonds, ""What the Label does not tell us: Further Thoughts on Clavichords from the Pfeifer Workshop"", in: Clavichord International, 19/1 (Mai 2015), S. 20–27. Zur Generation der frühen Tasteninstrumenten-Restauratoren (Hermann Seyffarth, Arthur Voss, Otto Marx und Friedrich Ernst) vgl. Klaus Martius: ""Seid aus eurer Leidenschaft und nehmt euch nicht zu viel aus alten Epochen, denen ihr nicht gewachsen seid!"" Peter Harlan als Restaurator alter Musikinstrumente, in: Concerto. Das Magazin für Alte Musik, Heft Nr. 221 (August/September 2008), S. 23–28 [pdf]; – Annette Otterstedt: Friedrich Ernst und seine Kartei. Ein Pionier der Restaurierung von Musikinstrumenten, in: VDR - Beiträge zur Erhaltung von Kunst- und Kulturgut (2007, Heft 1+2), S. 76–82; – Sabine Hoffmann: Friedrich Ernst und das Trasuntino-Cembalo. Eine Restaurierungsgeschichte, ebd., S. 83–89. (Objekteintrag auf der Homepage der Studiensammlung Musikinstrumente &amp; Medien: http://www.musikwissenschaft.uni-wuerzburg.de/instrumente/bestand/kurzliste/r10-virginal-marx/ (Stand: 15.05.2018).) --- R 10 SPINETT Otto Marx Nürnberg 1957 GEHÄUSE rechteckig. Alles aus massiv Ahorn, Unterboden Fichte. 4 Beine mit Fußklötzen aus Ahorn. Geteilter Lautenzug von F1 bis c1 bzw. cis1 bis f3. Maße: Gesamtlänge: 112,1 cm Gesamtbreite: 51,8 cm Gesamthöhe (mit Deckel): 80,0 cm Umfang: F1 – f3 HERKUNFT: Stiftung Rück. (Eschler, 1993: 72.)";;Raum E.8, in Residenz Würzburg;Nürnberg;19.8.1964;Dieter Blum;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-10/R10_b.jpg;vorhanden;;Hansen, Janne;15.05.18;zur Durchsicht;
+004-SGS_1.8.4/3/1:2;1.8.4/3/1;;Schulhefte und Prüfungsaufgaben der Schüler;Heimatkundeheft;Besteht aus 2 Teilen: 1.8.4/3/1 und /2;2;;;;Ingolstatd;;;;1977;;;;Schulgeschichtliche Sammlung;;Schenkungvon  an Schulgeschichtliche Sammlung Nürnberg;gut;Campus Regensburger Str.;Nürnberg;1.4.2019;Johanna-Maria Fritz;;ausleihbar;;Wurst, Hans;10.09.19;zur Durchsicht;
+008-SGS_1.0.14/1:1;1.0.14/1;;Schulhefte und Prüfungsaufgaben der Schüler;Prüfung Exercitium in Examine anniversario;;1;;;;Ingolstadt;;;;1977;;;;Schulgeschichtliche Sammlung;;Dauerleihgabevon  an Fridericianum Erlangen;;Campus Regensburger Str.;Nürnberg;5.12.2019;Johanna-Maria Fritz;;ausleihbar;;;;;
+003-UFG_Pa1565:1;Pa1565;;;Spitzschaber;;1;;;Mittel-Paläolithikum (300.000-40.000 v. Chr.);Les Eyzies;Silex;;Länge: 6,1cm, Breite: 4,2cm;2001;;La Micoque, Station 1;"Begleitender Fundzettel: ""La Micoque, Station 1. Micoquien nach O. Hauser, warmes Moustérien. Die verschiedenen Spitzen des Sondertypus von La Micoque in verschiedenen Bearbeitungsstadien.""";"Ufg
+";Eingang Sammlung R. Paulsen durch Vermittlung Dr. Karl-Heinz Rieder (Landesstelle für Denkmalpflege Ingolstadt);28.11.2001von  an;;;Erlangen;2.4.2002;;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/ecdd9dafd510ad1d03b589524d26a629.jpg , http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/%20d36ff07e56b6ff5dc885c81b9ab9a963.jpg , http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/2500f74c62e8fe4b90151520928b559d.jpg , http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2018-11/67de464f07e5d8564ba1a807ccd208f3.jpg;vorhanden;;Musterfrau, Marianne;9.11.2017;zur Durchsicht;
 019-UFG_B62:1;B62;;"Schmuck
-Nachbildung";Bronzene Plattenfibel (Nachbildung);Nachbildung einer bronzenen Plattenfibel mit reicher Buckel- und Rillenverzierung.;;;;;;;;Länge: 20cm, Plattenhöhe: 9,9cm;;;;1907;;;ufg;;;;;;;;1957;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-06/B62_Plattenfibel.jpg;;;;;;;;;;;;;Foto zu B62;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;B62;;;;;
-020-UFG_E.10:1;E.10;;Statuette;kleine bronzene Statuette eines doppelköpfigen Stieres;Kleine bronzene Statuette eines doppelköpfigen Stieres. Drei der Hörner gebrochen.;1;;;Hallstattzeitlich;;;;Höhe: 4,3cm;;;;1907;Bayerische Donaugegend;;UFG;;;;;;;;1957;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;E.10;;;;E.10;;;;;
-021-UFG_P746:1;P746;;Vollplastik;Panther-Vollplastik;Panther-Vollplastik (kleiner). Nachbildung.;1;;;;Niederstotzingen;;;;;;;1895;Vogelherd;;UFG;;;;;;;;1957;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-07/%20Pa746_Objektfoto.jpg;;;;Wurst, Wurst, Hans;;zur Durchsicht;;;;;;;Foto zu P746;;;;;;;;;;;;;;;;;;;;;;;;;;P746;;;;P746;;;;;
-022-UFG_P198:2384;R198;;Wandscherben;größere und kleinere Wandscherben;"2384 größere und kleinere Wandscherben ohne besondere Kennzeichen aus verschiedenfarbigem&nbsp;Ton.";2384;;;;;;;;;;;1898;WissKI Entity 340306;;ufg;;;;;;;;1957;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-07/%20R198_Objektfoto.jpeg;;;;Wurst, Wurst, Hans;;zur Durchsicht;;;;;;;Foto zu R198;;;;;;;;;;;;;;;;;;;;;;;;;;R198;;;;R198;;;;;
-023-UFG_Va6555:1;Va6555;Me5029;Keramikgefäß;Krug;"Krug.  Hellbraun, grobtonig, grob steinchengemagert, glimmerartige Anteile. Ebene, abgesetzte Standfläche, konisches Unterteil, Bauchknick, konische, deutlich abgesetzte Schulter, leicht trichterförmiger Hals, abgerundeter Rand, Bandhenkel. Auf Schulter und Umbruch schräge Rippen.&nbsp;";;;;"Bronzezeit; Lausitzer Kultur";Aurith;Keramik;;H.: 17cm, Dm.: 13cm;;;;1878;„200 Schritt“ südöstlich des Dorfes Aurith/Urad;"Grabfund. Das Gräberfeld wurde dem im Oktober 1878 verfassten Grabungsbericht zufolge „vor mehreren Jahren“ zufällig entdeckt, wobei „im vorigen Jahre“ von Seiten der Regierung Ausgrabungen veranlaßt wurden. Der Fundplatz liegt etwa „200 Schritt“ südöstlich des Dorfes, „ziemlich hart an der Oder auf den Bergen, welche eine Höhe von 80-100 Fuß über dem gewöhnlichen Spiegel der Oder haben"". Als Orientierungsmarke diente ein Fichtenstrauch, um den herum sich ""das Urnenfeld in einem Umfange von 175 Schritt"" ausdehnte. Laut Grabungsbericht waren im Gelände noch die Spuren dieser Ausgrabung (Gruben, Keramikscherben, Knochenreste) auszumachen. Nachgrabungen durch den Verfasser brachten keine intakten Gräber mehr zutage.";ufg;Sammlung Rosenberg;"Schenkung vor 1878, ""Herr Luther"", von Julius Alexander Robert Rosenberg an 
-Vermächtnis 1881, Julius Alexander Robert Rosenberg, von  an Germanisches Nationalmuseum";;;;Reichel 2000;;1957;;;;;Hofmann;29.07.2019;in Bearbeitung;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Va6555;Va6555;;;;Va6555;;;;;
+Nachbildung";Bronzene Plattenfibel (Nachbildung);Nachbildung einer bronzenen Plattenfibel mit reicher Buckel- und Rillenverzierung.;;;;;;;;Länge: 20cm, Plattenhöhe: 9,9cm;1907;;;;ufg;;;;;Elangen;1.4.1957;Ursula Arnold;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-06/B62_Plattenfibel.jpg;;;;;;
+020-UFG_E.10:1;E.10;;Statuette;kleine bronzene Statuette eines doppelköpfigen Stieres;Kleine bronzene Statuette eines doppelköpfigen Stieres. Drei der Hörner gebrochen.;1;;;Hallstattzeitlich;;;;Höhe: 4,3cm;1907;;Bayerische Donaugegend;;UFG;;;;;Elangen;2.4.1957;Ursula Arnold;;;;;;;
+021-UFG_P746:1;P746;;Vollplastik;Panther-Vollplastik;Panther-Vollplastik (kleiner). Nachbildung.;1;;;;Niederstotzingen;;;;1895;;Vogelherd;;UFG;;;;;Erlangen;3.4.1957;Ursula Arnold;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-07/%20Pa746_Objektfoto.jpg;;;Wurst, Wurst, Hans;;zur Durchsicht;
+022-UFG_P198:2384;R198;;Wandscherben;größere und kleinere Wandscherben;"2384 größere und kleinere Wandscherben ohne besondere Kennzeichen aus verschiedenfarbigem&nbsp;Ton.";2384;;;;Nürnberg;;;;1898;;WissKI Entity 340306;;ufg;;;;;Erlangen;5.4.1957;Ursula Arnold;http://objekte-im-netz.fau.de/oindemo/sites/objekte-im-netz.fau.de.oindemo/files/2019-07/%20R198_Objektfoto.jpeg;;;Wurst, Wurst, Hans;;zur Durchsicht;
+023-UFG_Va6555:1;Va6555;Me5029;Keramikgefäß;Krug;"Krug.  Hellbraun, grobtonig, grob steinchengemagert, glimmerartige Anteile. Ebene, abgesetzte Standfläche, konisches Unterteil, Bauchknick, konische, deutlich abgesetzte Schulter, leicht trichterförmiger Hals, abgerundeter Rand, Bandhenkel. Auf Schulter und Umbruch schräge Rippen.&nbsp;";;;;"Bronzezeit; Lausitzer Kultur";Aurith;Keramik;;H.: 17cm, Dm.: 13cm;1878;;„200 Schritt“ südöstlich des Dorfes Aurith/Urad;"Grabfund. Das Gräberfeld wurde dem im Oktober 1878 verfassten Grabungsbericht zufolge „vor mehreren Jahren“ zufällig entdeckt, wobei „im vorigen Jahre“ von Seiten der Regierung Ausgrabungen veranlaßt wurden. Der Fundplatz liegt etwa „200 Schritt“ südöstlich des Dorfes, „ziemlich hart an der Oder auf den Bergen, welche eine Höhe von 80-100 Fuß über dem gewöhnlichen Spiegel der Oder haben"". Als Orientierungsmarke diente ein Fichtenstrauch, um den herum sich ""das Urnenfeld in einem Umfange von 175 Schritt"" ausdehnte. Laut Grabungsbericht waren im Gelände noch die Spuren dieser Ausgrabung (Gruben, Keramikscherben, Knochenreste) auszumachen. Nachgrabungen durch den Verfasser brachten keine intakten Gräber mehr zutage.";ufg;Sammlung Rosenberg;"Schenkung vor 1878, ""Herr Luther"", von Julius Alexander Robert Rosenberg an 
+Vermächtnis 1881, Julius Alexander Robert Rosenberg, von  an Germanisches Nationalmuseum";;;Erlangen;6.4.1957;Ursula Arnold;;;;Hofmann;29.07.2019;in Bearbeitung;
 012-UB_H62/B-324:1;H62/B 324;;Graphik;Kains Brudermord;Kain, in seiner rechten Hand eine Keule haltend, erhebt seinen Arm, um seinen unter ihm am Boden liegenden Bruder Abel zu erschlagen.;;Peter, Flötner;;1523;Nürnberg;"Tinte
-Papier";Federzeichnung;Höhe: 4,4cm, Breite: 4,5cm;;;;1928;;;Universitätsbibliothek Erlangen-Nürnberg;;von  an Universitätsbibliothek Erlangen-Nürnberg;;;Universitätsbibliothek Erlangen;"Dickel
-Bock";95;1962;;;vorhanden;;Jennifer Höhne;20.02.2019;;;;;;;;Foto zu H62/B 324;;;;;;;;;;;;;;50 Lux;;;;;;;;;;;;;"H62/B 324
-H62/B 361";"H62/B 324
-H62/B 361";;"H62/AH 184/186
-H62/B 324
-H62/B 361";;;;;
+Papier";Federzeichnung;Höhe: 4,4cm, Breite: 4,5cm;1928;;;;Universitätsbibliothek Erlangen-Nürnberg;;von  an Universitätsbibliothek Erlangen-Nürnberg;;Universitätsbibliothek Erlangen;Erlangen;15.7.1962;Dieter Blum;;vorhanden;;Jennifer Höhne;20.02.2019;;
 012-UB_H62/B-361:1;H62/B 361;;Graphik;Säule mit zwei Widderköpfen und einem Cherubskopf;Die Zeichnung zeigt eine quer zum Schaft zerbrochene Säule. Das Kapitell mit Blättern und Girlanden zeigt außerdem zwei Widderköpfe und eine Cherubskopf. Die Basis ist mit verzierten umlaufenden Bändern geschmückt.;;Peter, Flötner;;1535;Nürnberg;"Tinte
-Papier";Federzeichnung;Höhe: 11,1cm, Breite : 16,7cm;;;;1928;;;Universitätsbibliothek Erlangen-Nürnberg;;von  an Universitätsbibliothek Erlangen-Nürnberg;;;Universitätsbibliothek Erlangen;"Dickel
-Bock";103;1962;;;;;Jennifer Höhne;20.02.2019;;;;;;;;Foto zu H62/B 361;;;;;;;;;;;;;;;;;;;;;;;;;;;"H62/B 324
-H62/B 361";"H62/B 324
-H62/B 361";;"H62/AH 184/186
-H62/B 324
-H62/B 361";;;;;
-018-UB_DAH1:1;DAH1;;Buch;Märchen und Sagen aus Ostwestfalen Lippe;"Illustriertes Buch, 499 Seiten. Autor: Gerda Hobinger. Copyright 1980&nbsp;Benninger&nbsp;Verlag. Das Objekt ist ein Andenken an die Herkunftsregion und die Kindheit von Bertha Schmidt.";;;;;Rödinghausen;;;;;;;1988;;;Universitätsbibliothek Erlangen-Nürnberg;;;;;;;;2001;;;;;;;in Bearbeitung;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;DAH1;;;DAH1;;;;;
+Papier";Federzeichnung;Höhe: 11,1cm, Breite : 16,7cm;1928;;;;Universitätsbibliothek Erlangen-Nürnberg;;von  an Universitätsbibliothek Erlangen-Nürnberg;;Universitätsbibliothek Erlangen;Erlangen;1.8.1962;Dieter Blum;;;;Jennifer Höhne;20.02.2019;;
+018-UB_DAH1:1;DAH1;;Buch;Märchen und Sagen aus Ostwestfalen Lippe;"Illustriertes Buch, 499 Seiten. Autor: Gerda Hobinger. Copyright 1980&nbsp;Benninger&nbsp;Verlag. Das Objekt ist ein Andenken an die Herkunftsregion und die Kindheit von Bertha Schmidt.";;;;;Rödinghausen;;;;1988;;;;Universitätsbibliothek Erlangen-Nürnberg;;;;;Erlangen;11.11.2001;Eckhard Krumpholz;;;;Musterfrau, Marianne;5. März 2019;in Bearbeitung;

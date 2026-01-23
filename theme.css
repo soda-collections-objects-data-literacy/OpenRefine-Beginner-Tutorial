@@ -1,12 +1,42 @@
+/*********************
+
+Diese CSS Datei dient als Gestaltungstheme für LiaScript Ressourcen.
+Das Theme ist an die Kernfarben von SODa - Sammlungen, Objekte, Datenkompetenzen angepasst.
+
+Auf diese Datei kann verwiesen werden (https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css)
+oder sie kann in das eigene directory kopiert und angepasst werden
+
+*********************/
+
+/*  
+
+TABLE OF CONTENTS
+
+- font import
+- root / Globale css variablen
+- Schriftart
+- Seitenleiste / Sidebar
+- Buttons
+- Progressbar
+- Links
+- LiaScript Color Modes / LiaScript eigene Farbthemen
+
+*/
+
+
 /* Noto Sans importieren */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap');
 
+
+/* Globale CSS Einstellungen 
+LiaScript eigene Farbwerte werden hier durch SODa Farbewerte ersetzt*/
 :root { 
 --color-highlight-dark: 255, 169, 51 !important;
 --color-highlight-menu: 255, 169, 51 !important;
 --color-highlight: 255, 169, 51 !important;
 }
 
+/* Noto Sans als Font festlegen für Text allgemein und Überschriften */
 body {
   font-family: 'Noto Sans', sans-serif !important;
 }
@@ -15,31 +45,33 @@ body {
   font-family: 'Noto Sans', sans-serif !important;
 }
 
-/* Sidebar */
-
+/* Sidebar 
+Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorgehoben*/
 .lia-active { 
   color: #FFA933 !important; 
 }
 
 /* Buttons */
+
+/* Definition für Buttons in der Kopfzeile (e.g. Seitenleiste auf/zu, Einstellungen, etc.) */
 .lia-btn {
   background: transparent !important;
   padding: 8px 14px !important;
   cursor: pointer !important;
   box-shadow: 0 4px 8px rgba(0,0,0,0.06) !important;
 }
-
+/* Definition für Buttons im Footer um die LiaScript "Seiten/Folien" zu blättern */
 .lia-pagination__content { 
   background: #FFA933!important; 
 }
 
-/* Progress Bar */
+/* Progress Bar, definiert die Farbe des Progress Bar in der Kopfzeile */
 .lia-progress {
   height: .15rem !important;
   background: #FFA933 !important;
 }
 
-/* Links */
+/* Links, definiert die Farbe, mit der Links hinterlegt sind und ob sich die Farbe ändert, wenn der Link besucht wurde */
 .lia-link { 
   color: #FFA933 !important; 
 }
@@ -48,20 +80,28 @@ body {
   color: #e68500 !important;
  }
 
- /* Theme not default Light */
+ /* 
+ 
+LiaScript erlaubt im Light oder Dark Modus neben der Standard Einstellung auch weitere Color Themes.
+Diese wurden für dieses SODa Theme überschrieben und durch folgendes CSS ausgeschaltet. 
+ 
+ */
+ 
+ /* Änderungen um die LiaScript eigenen Color-Themes der Seitenleiste im Light und Dark Modus zu überschreiben */
 
+/* Sidebar (TOC = Table of Contents) Farbe festlegen */
 html:not([class*="lia-theme-default"]) .lia-toc {
   background-color: #FFA933 !important;
 }
-
+/* Sidebar (TOC = Table of Contents) Text Farbe festlegen */
 html:not([class*="lia-theme-default"]) .lia-toc {
   color: rgb(var(--color-text))!important;
 }
-
+/* Sidebar (TOC = Table of Contents) Suchfeld Text Farbe festlegen */
  html:not([class*="lia-theme-default"]) .lia-toc__search input {
   color: rgb(var(--color-text))!important;
 }
-
+/* Sidebar (TOC = Table of Contents) Farbe des gewählten Kapitels festlegen */
 html:not([class*="lia-theme-default"]) .lia-toc__content a.lia-active {
   color: rgb(var(--color-highlight-menu));
   background-color: #323232 !important;
@@ -69,24 +109,27 @@ html:not([class*="lia-theme-default"]) .lia-toc__content a.lia-active {
   font-weight: 700;
 }
 
- /* Theme not default Dark */
+ /* Änderungen um die LiaScript eigenen Color-Themes im Dark Modus zu überschreiben
+ hier waren von LiaScript selbst die Farben in höherem Kontrast definiert, was in diesem Fall nicht nötig ist */
+
+/* Button Farbe anpassen für Dark Modus */
 html.lia-variant-dark .lia-btn--transparent {
   filter: contrast(1.1)!important;
 }
-
+/* Text Farbe anpassen in den Einstellungen (Menü in der Kopfzeile) */
 html.lia-variant-dark .lia-label {
   color: rgb(var(--color-highlight))!important;
 }
-
+/* Button Farbe anpassen Menü in der Kopfzeile */
 html.lia-variant-dark .lia-support-menu__item {
   color: rgb(var(--color-highlight))!important;
 }
-
+/* Code Farbe anpassen */
 html.lia-variant-dark .lia-code--inline {
   border-color: rgb(var(--color-highlight))!important;
   color: rgb(var(--color-highlight))!important;
 }
-
+/* Bullet Point Farbe anpassen */
 html.lia-variant-dark .lia-list--unordered > li::marker {
   color: rgb(var(--color-highlight-dark));
 }
