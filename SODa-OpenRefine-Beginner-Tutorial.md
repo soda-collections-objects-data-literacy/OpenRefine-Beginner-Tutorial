@@ -438,13 +438,14 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRef
 
 > Spalte "Fotodokumentation" -> Edit cells -> Transform...
 
-- um die Jahreszahlen mit anderen Zahlen vergleichen zu können, müssen wir diese erst wieder zu "normalen" Zahlen umwandeln
-- über **Edit cells** und **Transform...** kommen wir wieder zu den Expressions
-- hier wird nun folgende Funktion eingegeben:
+- um die Jahreszahlen mit anderen Zahlen vergleichen zu können, müssen wir diese erst wieder vom Valuetyp Datum zum Valuetyp Zahl umwandeln
+- da wir unsere Spalte nicht ändern und die Datumswerte verlieren wollen, erstellen wir eine neue Spalte für die Jahreszahlen
+- über **Edit column** und **Add column based on this column...** kommen wir wieder zu den Expressions
+- hier wird nun einen Titel (Jahr Fotodokumentation) und folgende Funktion eingegeben:
 
 `value.split("-")[0].toNumber()`
 
-- hierbei wird definiert, dass der Wert Jahr erst abgettrennt wird und daraus eine Zahl (number) als Value Type definiert wird
+- hierbei wird definiert, dass der Wert Jahr erst abgetrennt wird und daraus eine Zahl (number) als Value Type definiert wird
 - mit dieser Umwandlung kann nun die nächste Visualisierung kommen
 
         {{4}}
@@ -585,13 +586,20 @@ SODa – Sammlungen, Objekte, Datenkompetenzen: https://sammlungen.io/
 
 ---
 
+- Version: 1.0
+- Datum: 2026-01-27
+- Repository: https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial/tree/main
+
+---
+
+
 weitere Tutorials und Open Educational Resources: https://sammlungen.io/kb
 
 ---
 
 gefördert durch:
 
-![Finanziert von der Europäischen Union](img/DE_Finanziert_von_der_Europäischen_Union_RG_NEG.png)
+![Finanziert von der Europäischen Union](img/FinanziertVonDerEU.jpg)
 
 ![Gefördert durch: Bundesministerium für Forschung, Technologie und Raumfahrt](img/BMFTR_de_Web_RGB_gef_durch.jpg)
 
