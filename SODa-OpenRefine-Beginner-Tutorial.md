@@ -1,9 +1,9 @@
 <!--
 
-author:     Louise Tharandt & Michael Markert
-email:      louise.tharandt@hu-berlin.de
-date:       23/01/2026
-version:    1.0
+author:     Louise Tharandt, Johannes Schäffer & Michael Markert
+email:      louise.tharandt@hu-berlin.de / johannes.schaeffer@hu-berlin.de
+date:       30/01/2026
+version:    2.0
 language:   de
 mode:       Textbook
 dark:       false
@@ -50,11 +50,11 @@ Für einen Überblick zu der Arbeit mit OpenRefine haben wir dieses Tutorial aus
 
     -> Beim ersten Öffnen kann es passieren, dass ein Warnhinweis erscheint, diesen durch "trotzdem öffnen" ignorieren und Programm starten.
 
-3. OpenRefine öffnet keine eigene Applikation, sondern funktioniert über den eigenen Browser. Dort wird ein neues Fenster automatisch geöffnet und man sieht das User Interface von Openrefine. Dieses Browser Fenster kann auch durch folgenden Link gefunden werden: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
+3. OpenRefine öffnet keine eigene Applikation, sondern funktioniert über den eigenen Browser. Dort wird ein neues Fenster automatisch geöffnet und man sieht das User Interface von OpenRefine. Dieses Browser Fenster kann auch durch folgenden Link gefunden werden: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
 
-4. Erste Daten kann man durch das klicken des **"Durchsuchen" Buttons** importieren. Dadurch öffnet sich ein neues Fenster, in dem man die Datei auswählen kann. Alternativ kann eine Datei auch in das Datenfenster gezogen werden. Danach wird die Datei durch ein **Klick auf "Next"** geladen.
+4. Erste Daten kann man durch das Klicken des **"Durchsuchen" Buttons** importieren. Dadurch öffnet sich ein neues Fenster, in dem man die Datei auswählen kann. Alternativ kann eine Datei auch in das Datenfenster gezogen werden. Danach wird die Datei durch ein **Klick auf "Next"** geladen.
 
-        Online vorhandene Daten können auch per URL in OpenRefine geladen werden, dafür wird in der Spalte ~~Get Data from~~ unter This Computer auf **Web Addresses (URLs)** geklickt, danach kann in das freie Feld die URL kopiert werden.
+        -> Online vorhandene Daten können auch per URL in OpenRefine geladen werden, dafür wird in der Spalte ~~Get Data from~~ auf **Web Addresses (URLs)** geklickt, danach kann in das freie Feld die URL kopiert werden.
 
 5. Bevor die Arbeit mit den Daten beginnen kann, wird die geöffnete Datei in OpenRefine dargestellt. Hier können eventuelle Import Fehler, wie (1) Spalten-Separator oder Character encoding, verändert werden. Auch der (2) Projekt Name kann angepasst oder verändert werden. Ist alles korrekt, kann nun oben rechts in der Ecke (3) mit **"create project"** das OpenRefine Projekt gestartet werden.
 
@@ -91,13 +91,15 @@ Inhaltsübersicht:
 1. Reihenfolge des Namens abgleichen und korrigieren
 2. Leerzeichen suchen, finden und löschen
 3. Sortieren und filtern
-4. URLs auftrennen und korrigieren
-5. Clustern von Begriffen zur Vereinheitlichung von Schreibweisen
-6. ID/Inventarnummer aus einer Spalte in mehreren aufteilen
-7. Messwerte aus einer Spalte in mehreren aufteilen
-8. Einfache Datenvisualiserung in OpenRefine
-9. Koordinaten zu Ortsnamen aus OpenStreetMap holen
-10. Export als Tabellendaten
+4. Undo / Redo
+5. URLs auftrennen und korrigieren
+6. Clustern von Begriffen zur Vereinheitlichung von Schreibweisen
+7. ID/Inventarnummer aus einer Spalte in mehreren aufteilen
+8. Messwerte aus einer Spalte in mehreren aufteilen
+9. Einfache Datenvisualiserung in OpenRefine
+10. Koordinaten zu Ortsnamen aus OpenStreetMap holen
+11. Reconciling in OpenRefine
+12. Export als Tabellendaten
 
 ### 1. Reihenfolge des Namens abgleichen und korrigieren
 
@@ -230,7 +232,23 @@ weitere Möglichkeit:
 
 ---
 
-### 4. URLs auftrennen und korrigieren
+### 4. Undo / Redo
+
+        {{1}}
+
+- Jeder durchgeführter Schritt in OpenRefine wird aufgezeichnet.
+- Man muss nicht zwischendurch speichern und verliert keine Daten oder Änderungen an den Daten.
+- Links im Seitenfenster sind die Facets zu sehen, diese sind sichtbar, da aktuell und in der Standardansicht der Tab **Facet / Filter** angezeigt wird.
+- oben (direkt unter dem OpenRefine Logo, über das man wieder in die Projektauswahl kommt) kann der Tab gewechselt werden zu **Undo / Redo**
+- Hier in der Liste sind alle durchgeführten Schritte und Änderungen gespeichert.
+- Man kann nun auf einen der Schritte klicken und somit "zurückspringen" bzw. die danach folgenden Änderungen rückgängig machen.
+- Aber ⚠️ durch neue Änderungen kann auf die zuvor rückgängig gemachten Schritte nicht mehr zugegriffen werden.
+- Wenn die durchgeführten Schritte auf andere Daten übertragen werden sollen, kann der komplette Verlauf oder ein Teil davon, also die durchgeführten Schritte, exportiert werden: Im Seitenfenster oben rechts auf **Extract...** gehen und dann über Export speichern.
+- Diese JSON Datei kann dann beispielsweise in einem neuen Projekt innerhalb des **Undo / Redo** Tabs über den **Apply...** Button hineingeladen werden.
+
+---
+
+### 5. URLs auftrennen und korrigieren
 
         {{1}}
 
@@ -270,7 +288,7 @@ weitere Möglichkeit:
 
 ---
 
-### 5. Clustern von Begriffen zur Vereinheitlichung von Schreibweisen
+### 6. Clustern von Begriffen zur Vereinheitlichung von Schreibweisen
 
         {{1}}
 
@@ -291,7 +309,7 @@ weitere Möglichkeit:
 
 ---
 
-### 6. ID/Inventarnummer aus einer Spalte in mehreren aufteilen
+### 7. ID/Inventarnummer aus einer Spalte in mehreren aufteilen
 
         {{1}}
 > Spalte "ID" -> Edit column -> Add column based on this column ... `value.split(":")[1]`
@@ -345,7 +363,7 @@ dem Doppelpunkt (":"), das erste Array [0] gewählt.
 
 ---
 
-### 7. Messwerte aus einer Spalte in mehreren aufteilen
+### 8. Messwerte aus einer Spalte in mehreren aufteilen
 
         {{1}}
 
@@ -407,7 +425,7 @@ value.find(/Breite:\s*\d+(,\d+)?(mm|cm)/)[0]
 
 ---
 
-### 8. Einfache Datenvisualiserung in OpenRefine
+### 9. Einfache Datenvisualiserung in OpenRefine
 
 Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRefine vereinfacht visualisiert werden. Je nach Datenlage können eine Histogram oder eine Scatterplot Darstellung erstellt werden.
 
@@ -420,7 +438,7 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRef
 
 `value.toDate('dd.MM.yyyy','dd-MM-yy').toString('yyyy-MM-dd')`
 
-- Dadurch sind die verscheiden eingetragenen Werte aufgeräumt 
+- Dadurch sind die verschieden eingetragenen Werte aufgeräumt 
 
         {{2}}
 
@@ -436,7 +454,7 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRef
 
         {{3}}
 
-> Spalte "Fotodokumentation" -> Edit cells -> Transform...
+> Spalte "Fotodokumentation" -> Edit column -> Add column based on this column...
 
 - um die Jahreszahlen mit anderen Zahlen vergleichen zu können, müssen wir diese erst wieder vom Valuetyp Datum zum Valuetyp Zahl umwandeln
 - da wir unsere Spalte nicht ändern und die Datumswerte verlieren wollen, erstellen wir eine neue Spalte für die Jahreszahlen
@@ -452,7 +470,7 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRef
 
 > Spalte "Eingangsjahr" -> Facet -> Scatterplot Facet...
 
-- die Daten der **Spalte "Eingangsjahr"** sollen mit den Daten der **Spalte "Fotodokumentation"** verglichen werden
+- die Daten der **Spalte "Eingangsjahr"** sollen mit den Daten der **Spalte "Jahr Fotodokumentation"** verglichen werden
 - dafür müssen noch die Werte aus der Spalte Eingangsjahr zu Zahlenwerten umgewandelt werden. Für die Spalte etwas nach links scrollen, zwischen Messung und Beschreibung/Transkription
 - Auf **Edit Cells** und gleich weiter zu **Common Transforms** rutschen und dann auf **To number** klicken
 - Jetzt oben bei **Spalte "Eingangsjahr"** und dort über **Facet** zu **Scatterplot Facet...** gehen
@@ -471,7 +489,7 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRef
 
 ---
 
-### 9. Koordinaten zu Ortsnamen aus OpenStreetMap holen
+### 10. Koordinaten zu Ortsnamen aus OpenStreetMap holen
 
         {{1}}
 
@@ -485,6 +503,8 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRef
 
 > ⚠️ Hinweis: Der Nominatim-Dienst von OpenStreetMap ist ein kostenloses Angebot, dass man nicht zu intensiv nutzen sollte, eventuell wird sonst die eigene IP-Adresse dafür gesperrt, s. https://operations.osmfoundation.org/policies/nominatim/ Der Abstand zwischen Abfragen sollte daher mindestens 1 Sekunde betragen, was im "Throttle delay" festgelegt wird.
 
+> ⚠️ Der Dienst kann in manchen Fällen nicht funktionieren, nach ein oder zwei erneuten Versuchen sollten aber die Ergebnisse in der neuen Spalte zu sehen sein.
+
 > 💡 Im Ausdruck selbst wird `value.escape('url)` verwendet, damit Umlaute, Leer- und Sonderzeichen in den Ortsnamen so umgewandelt werden, dass eine gültige URL entsteht.
 
 - Als Antwort liefert der Nominatim-Dienst JSON-Dokumente, aus denen die entsprechenden Koordinatenwerte noch herausgeparst werden müssen.
@@ -497,7 +517,58 @@ Für eine kurze Übersicht können vor allem Zahlen und Datumsangaben in OpenRef
 
 ---
 
-### 10. Export als Tabellendaten
+### 11. Reconciling in OpenRefine
+
+        {{1}}
+
+- Mit Reconciliation wird in OpenRefine eine Datenanreicherung durch Abgleich von Daten über externe Services beschrieben.
+- In diesem Beispiel führen wir den Abgleich mit dem Service von Wikidata und dem GND Service von lobid durch.
+
+> Spalte "Fotograf" -> Reconcile -> Start reconciling...
+
+- Um das Reconciling durchzuführen, muss ein Service ausgewählt werden.
+- WikiData ist schon in OpenRefine integriert, die Verbindung zur GND muss erst eingerichtet werden.
+- In der Spalte **"Fotograf"** oben das kleine blaue Dreieck 🔽 neben dem Spaltennamen klicken und an letzter Stelle über **Reconcile** auf **Start reconciling...** gehen
+- Wenn das Reconcile Fenster sich öffnet, unten links auf **Add Standard Service...** klicken.
+- Dort dann folgende URL eingeben / hineinkopieren: https://lobid.org/gnd/reconcile/
+- Aus der Liste der Reconciling Services **GND reconciliation for OpenRefine** wählen und unten rechts auf **Next** klicken.
+- Für diese Übung kann alles beibehalten und einfach unten rechts **Start reconciling...** ausgewählt werden.
+- In Abb. 6 werden die einzelnen Felder des Reconciling Fensters erklärt.
+
+![Erklärung der GND Reconciling Einstellungen](img/GNDReconciling_OpenRefine.png "Abb. 6: GND Reconciling Einstellungen")
+
+        {{2}}
+
+- Nach wenigen Sekunden werden die vorhandenen Namen der Fotografen mit den in der GND vorhandenen Namensdaten verbunden sein.
+- Übereinstimmende Werte sind dunkelblau gekennzeichnet, bei Werten, die noch nicht eindeutig zuzuweisen waren, ist eine Auswahl aus hellblauen Namen zu sehen.
+- Durch das Anklicken der hell- und auch dunkelblauen Werten, wird ein neues Fenster mit den Informationen in der GND geöffnet.
+- Hierdurch können und sollten die abgeglichenen und verbundenen Werte kontrolliert werden.
+- Bei nicht eindeutig zugewiesenen Werten kann, wenn die Maus über dem Namen liegt, der richtige Wert festgelegt werden. Um einen einzelnen Wert festzulegen auf **Match this cell** oder auf den Button mit einem einzelnen Haken klicken. Um den richtigen Wert, der in mehreren Zeilen vorhanden ist, festzulegen, auf **Match all identical cells** oder auf den Button mit zwei Haken klicken.
+- Dies bei List, Herbert (an zweiter Stelle: Fotograf; Kunstsammler) und Blum, Dieter (an erster Stelle: Fotograf) durchführen.
+- In manchen Fällen ist die korrekte Zuweisung in den vorgeschlagenen GND Werten nicht zu sehen. Unter den Vorschlägen steht hellblau und klein **See more**, dies erweitert die Liste an vorgeschlagenen GND Vergleichswerten. Unter **Search for match** werden die Vorschläge aufgelistet, man kann aber auch spezifisch noch mal suchen. Also beispielsweise in das Suchfeld die GND Nummer eintragen, wenn man diese vorher recherchiert hat. Man kann hier aber auch auf **Don't reconcile cell** gehen, dadurch wird der Wert nicht mit der GND verbunden, falls dies nicht möglich oder gewollt ist.
+
+        {{3}}
+
+> Spalte "Fotograf" -> Edit column -> Add columns from reconciled values...
+
+- Wenn Werte einer Spalte mit der GND (oder einem anderen Service) abgeglichen und verbunden sind, können die in der Datenbank / dem Service vorliegenden Daten in OpenRefine geladen / kopiert werden.
+- Über den bekannten Weg, das blaue Dreieck zu **Edit column** gehen und dort dann weiter zu **Add columns from reconciled values...**
+- In dem geöffneten Fenster können nun aus allen GND Properties die Informationen in einer neuen Spalte dargestellt werden. Dafür auf die gewünschte Eigenschaft klicken, auf der rechten Seite werden die Informationen angezeigt. Man kann durch die Liste scrollen oder oben links in das Suchfeld nach Properties suchen.
+- In diesem Fall folgende Properties auswählen: GND-Nummer, Geburtsdatum, Sterbedatum, Geburtsort
+- Bei den Spalten auf der rechten Seite kann man auch sehen, dass die Spalten dort auch wieder gelöscht werden können, wenn diese doch nicht erwünscht sind.
+- Unten rechts auf **ok** gehen und innerhalb kurzer Seite sind die neuen Spalten und die aus der GND kopierten Informationen zu sehen.
+- Auch von den neu entstandenen Spalten, kann wieder neu reconciled werden, also kann nun beispielsweise die Spalte Geburtsort gewählt werden und die vorhin durchgeführten Schritte (-> Edit column -> Add columns from reconciled values...) können wiederholt und neue Informationen in die Tabelle eingepflegt werden.
+
+> 💡 Weitere Reconciling Services können über den Button **Discover services...** oder unter folgendem Link eingesehen werden: https://reconciliation-api.github.io/testbench/0.2/#/ 
+
+> ⚠️ Eine Spalte, die erst mit einem Service und dann mit einem anderen Service reconciled wird, verliert die Verbindung zum davor genutzten Service. Das heißt, wenn erst GND und dann WikiData genutzt wurden, ist die Spalte nur noch mit WikiData verbunden. Um beides zu nutzen, sollte die Spalte vorher dupliziert werden (**Edit column** und dort dann **Add column based on this column ...**, neuen **Spaltennamen** eingeben, sonst nichts ändern, auf **ok**).
+
+> 💡 Wenn über WikiData reconciled wird und über **Add columns from reconciled values...** in einer neuen Spalte die Q-Nummer bzw. ID angezeigt werden soll, ist das Property nicht in der Auswahlliste zu finden. Hierfür auf das blaue Dreieck zu **Reconcile** gehen und dort dann weiter zu **Add entity identifiers column...** gehen. Einen passenden Spaltennamen eingeben und die zum Wert gehörige ID wird in der neuen Spalte zu sehen sein.
+
+
+---
+
+### 12. Export als Tabellendaten
 
         {{1}}
 
@@ -526,7 +597,7 @@ In diesem Kapitel sind die wichtigsten Links und weiterführende Tutorials zu fi
 
 > [Offizielle Dokumentation (Englisch)](https://openrefine.org/docs)
 
-Hier können alle wichtigen Schritte in OpenRefine nachgeschlagen werden, die Dokumetation ist auf Englisch, kann aber innerhalb Ihres Browser (wenn möglich) übersetzt werden.
+Hier können alle wichtigen Schritte in OpenRefine nachgeschlagen werden, die Dokumetation ist auf Englisch, kann aber innerhalb des Browsers (wenn möglich) übersetzt werden.
 
 Es ist allgemein wahrscheinlich einfacher, die Spracheinstellung bei OpenRefine auf Englisch zu lassen, somit lassen sich Probleme und Fragen einfacher lösen. Die Community von OpenRefine ist groß und viele Fragen und Antworten können im [OpenRefine Forum](https://forum.openrefine.org/) gefunden werden.
 
@@ -586,9 +657,9 @@ SODa – Sammlungen, Objekte, Datenkompetenzen: https://sammlungen.io/
 
 ---
 
-- Version: 1.0
-- Datum: 2026-01-27
-- Repository: https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial/tree/main
+Version: 2.0
+Datum: 2026-02-02
+Repository: https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial/tree/main
 
 ---
 
