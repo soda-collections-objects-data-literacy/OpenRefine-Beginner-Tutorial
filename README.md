@@ -5,12 +5,12 @@ OpenRefine ist ein leistungsstarkes Open-Source-Tool zur Datenbereinigung und -t
 
 Der Kurs führt in die grundlegende Funktion von OpenRefine ein und behandelt folgende Anwendungsfälle:
 
-- Daten bereinigen und ordnen, z.B. Personenansetzungen abgleichen und korrigieren, überflüssige Leerzeichen lösche
+- Daten bereinigen und ordnen, z.B. Personenansetzungen abgleichen und korrigieren, überflüssige Leerzeichen löschen
 - URLs auftrennen und korrigieren
 - Clustern von Begriffen zur Vereinheitlichung von Schreibweisen
 - Komplexe Freitextangaben wie Maßangaben oder Inventarnummern aufteilen
 - Koordinaten zu Ortsnamen aus OpenStreetMap holen
-- Reconciling: Identification von Entitäten in z.B. in der GND oder Wikidata
+- Reconciling: Identification von Entitäten z.B. in der GND oder Wikidata
 
 **[Zugang zum Selbstlernkurs](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial/main/SODa-OpenRefine-Beginner-Tutorial.md#1)**
 
