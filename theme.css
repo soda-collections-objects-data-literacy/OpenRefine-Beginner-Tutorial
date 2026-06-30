@@ -31,9 +31,9 @@ TABLE OF CONTENTS
 /* Globale CSS Einstellungen 
 LiaScript eigene Farbwerte werden hier durch SODa Farbewerte ersetzt*/
 :root { 
---color-highlight-dark: 255, 169, 51 !important;
---color-highlight-menu: 255, 169, 51 !important;
---color-highlight: 255, 169, 51 !important;
+--color-highlight-dark: 89, 115, 163 !important;
+--color-highlight-menu: 89, 115, 163 !important;
+--color-highlight: 89, 115, 163 !important;
 }
 
 /* Noto Sans als Font festlegen für Text allgemein und Überschriften */
@@ -48,7 +48,7 @@ body {
 /* Sidebar 
 Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorgehoben*/
 .lia-active { 
-  color: #FFA933 !important; 
+  color: #6666cc !important; 
 }
 
 /* Buttons */
@@ -62,7 +62,7 @@ Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorg
 }
 /* Definition für Buttons im Footer um die LiaScript "Seiten/Folien" zu blättern */
 .lia-pagination__content { 
-  background: #FFA933!important; 
+  background: #6666cc!important; 
 }
 
 /* Progress Bar, definiert die Farbe des Progress Bar in der Kopfzeile */
@@ -73,11 +73,11 @@ Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorg
 
 /* Links, definiert die Farbe, mit der Links hinterlegt sind und ob sich die Farbe ändert, wenn der Link besucht wurde */
 .lia-link { 
-  color: #FFA933 !important; 
+  color: #6666cc !important; 
 }
 
 .lia-link:visited { 
-  color: #e68500 !important;
+  color: #c5c5ec !important;
  }
 
  /* 
