@@ -34,6 +34,7 @@ LiaScript eigene Farbwerte werden hier durch SODa Farbewerte ersetzt*/
 --color-highlight-dark: 89, 115, 163 !important;
 --color-highlight-menu: 89, 115, 163 !important;
 --color-highlight: 89, 115, 163 !important;
+--color-soda: 255, 169, 51 !important;
 }
 
 /* Noto Sans als Font festlegen für Text allgemein und Überschriften */
@@ -48,8 +49,49 @@ body {
 /* Sidebar 
 Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorgehoben*/
 .lia-active { 
-  color: #6666cc !important; 
+  color: #FFA933 !important; 
 }
+
+/* Felder */
+
+/* Definition für Felder (e.g. Quotes etc.) */
+
+.lia-quote {
+  background-color: rgba(var(--color-soda),.15);
+  padding: 2.4rem;
+}
+
+/* Circles, Bulletpoints, Code and more */
+
+.lia-effect__circle {
+  background-color: rgb(var(--color-soda));
+  color: rgb(var(--lia-white));
+  height: 2rem;
+  text-align: center;
+  width: 2rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-124%);
+}
+
+.lia-code--inline {
+  border: 1px solid rgb(var(--color-soda));
+  color: rgb(var(--color-soda));
+  word-break: break-word;
+  margin-block-end: 0;
+  padding: 0 .5rem;
+}
+
+.lia-list--unordered, .lia-list--ordered {
+  color: rgb(var(--color-soda));
+  padding-inline-start: 2rem;
+}
+
+
 
 /* Buttons */
 
@@ -60,9 +102,14 @@ Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorg
   cursor: pointer !important;
   box-shadow: 0 4px 8px rgba(0,0,0,0.06) !important;
 }
+
+.lia-support-menu__item {
+  color: rgb(var(--color-soda)) !important;
+}
+
 /* Definition für Buttons im Footer um die LiaScript "Seiten/Folien" zu blättern */
 .lia-pagination__content { 
-  background: #6666cc!important; 
+  background: #FFA933!important; 
 }
 
 /* Progress Bar, definiert die Farbe des Progress Bar in der Kopfzeile */
@@ -83,15 +130,15 @@ Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorg
  /* 
  
 LiaScript erlaubt im Light oder Dark Modus neben der Standard Einstellung auch weitere Color Themes.
-Diese wurden für dieses SODa Theme überschrieben und durch folgendes CSS ausgeschaltet. 
+Diese wurden für dieses SODa Theme überschrieben und durch folgendes CSS überschrieben. 
  
  */
  
- /* Änderungen um die LiaScript eigenen Color-Themes der Seitenleiste im Light und Dark Modus zu überschreiben */
+/* Änderungen um die LiaScript eigenen Color-Themes der Seitenleiste im Light und Dark Modus zu überschreiben */
 
 /* Sidebar (TOC = Table of Contents) Farbe festlegen */
 html:not([class*="lia-theme-default"]) .lia-toc {
-  background-color: #FFA933 !important;
+  background: transparent !important;
 }
 /* Sidebar (TOC = Table of Contents) Text Farbe festlegen */
 html:not([class*="lia-theme-default"]) .lia-toc {
@@ -103,8 +150,7 @@ html:not([class*="lia-theme-default"]) .lia-toc {
 }
 /* Sidebar (TOC = Table of Contents) Farbe des gewählten Kapitels festlegen */
 html:not([class*="lia-theme-default"]) .lia-toc__content a.lia-active {
-  color: rgb(var(--color-highlight-menu));
-  background-color: #323232 !important;
+  background-color: rgba(var(--color-soda),.15);
   border-radius: .3rem;
   font-weight: 700;
 }
