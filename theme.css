@@ -61,7 +61,7 @@ Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorg
   padding: 2.4rem;
 }
 
-/* Circles, Bulletpoints, Code and more */
+/* Circles, Bulletpoints, Code, Headers and more */
 
 .lia-effect__circle {
   background-color: rgb(var(--color-soda));
@@ -86,9 +86,14 @@ Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorg
   padding: 0 .5rem;
 }
 
-.lia-list--unordered, .lia-list--ordered {
+.lia-list--unordered > li::marker {
   color: rgb(var(--color-soda));
-  padding-inline-start: 2rem;
+}
+
+.lia-accordion__header {
+  background-color: rgb(var(--color-soda));
+  align-items: center;
+  display: flex;
 }
 
 
