@@ -169,18 +169,18 @@ html.lia-variant-dark .lia-btn--transparent {
 }
 /* Text Farbe anpassen in den Einstellungen (Menü in der Kopfzeile) */
 html.lia-variant-dark .lia-label {
-  color: rgb(var(--color-highlight))!important;
+  color: rgb(var(--color-soda))!important;
 }
 /* Button Farbe anpassen Menü in der Kopfzeile */
 html.lia-variant-dark .lia-support-menu__item {
-  color: rgb(var(--color-highlight))!important;
+  color: rgb(var(--color-soda))!important;
 }
 /* Code Farbe anpassen */
 html.lia-variant-dark .lia-code--inline {
-  border-color: rgb(var(--color-highlight))!important;
-  color: rgb(var(--color-highlight))!important;
+  border-color: rgb(var(--color-soda))!important;
+  color: rgb(var(--color-soda))!important;
 }
 /* Bullet Point Farbe anpassen */
 html.lia-variant-dark .lia-list--unordered > li::marker {
-  color: rgb(var(--color-highlight-dark));
+  color: rgb(var(--color-soda));
 }
