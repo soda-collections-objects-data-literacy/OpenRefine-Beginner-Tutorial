@@ -33,7 +33,7 @@ LiaScript eigene Farbwerte werden hier durch SODa Farbewerte ersetzt*/
 :root { 
 --color-highlight-dark: 89, 115, 163 !important;
 --color-highlight-menu: 89, 115, 163 !important;
---color-highlight: 89, 115, 163 !important;
+--color-highlight: 255, 169, 51 !important;
 --color-soda: 255, 169, 51 !important;
 }
 
@@ -125,11 +125,11 @@ Asugewählte Kapitel in der Seitenleiste werden mit der gewählten Farbe hervorg
 
 /* Links, definiert die Farbe, mit der Links hinterlegt sind und ob sich die Farbe ändert, wenn der Link besucht wurde */
 .lia-link { 
-  color: #6666cc !important; 
+  color: #3939ac !important; 
 }
 
 .lia-link:visited { 
-  color: #c5c5ec !important;
+  color: #6666cc !important;
  }
 
  /* 
@@ -155,7 +155,7 @@ html:not([class*="lia-theme-default"]) .lia-toc {
 }
 /* Sidebar (TOC = Table of Contents) Farbe des gewählten Kapitels festlegen */
 html:not([class*="lia-theme-default"]) .lia-toc__content a.lia-active {
-  background-color: rgba(var(--color-soda),.15);
+  background-color: transparent !important;
   border-radius: .3rem;
   font-weight: 700;
 }
@@ -184,3 +184,11 @@ html.lia-variant-dark .lia-code--inline {
 html.lia-variant-dark .lia-list--unordered > li::marker {
   color: rgb(var(--color-soda));
 }
+
+html.lia-variant-dark .lia-link { 
+  color: #c5c5ec !important; 
+}
+
+html.lia-variant-dark .lia-link:visited { 
+  color: #6666cc !important;
+ }
