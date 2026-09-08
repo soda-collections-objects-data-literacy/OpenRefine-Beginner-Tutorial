@@ -1,9 +1,9 @@
 <!--
 
 author:     Louise Tharandt, Johannes Schäffer & Michael Markert
-email:      louise.tharandt@hu-berlin.de / johannes.schaeffer@hu-berlin.de
-date:       30/01/2026
-version:    2.0
+email:      soda@sammlungen.io
+date:       2026-09-08
+version:    2.1
 language:   de
 mode:       Textbook
 dark:       false
@@ -11,6 +11,7 @@ dark:       false
 link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
             https://fonts.googleapis.com/css?family=Noto+Sans
 
+repository: https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial 
 license:    CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ 
 
 icon:       /img/SODa-Logo_Wort-Bild_RGB.png
@@ -642,29 +643,64 @@ Mit OpenRefine Daten aus dem Web laden und verarbeiten
 - Regex Übung (Deutsch): https://fdmlab.landesarchiv-bw.de/workshop/openrefine-fortgeschrittene/08-regulaere-ausdruecke/
 - GREL Übung (Deutsch): https://fdmlab.landesarchiv-bw.de/workshop/openrefine-fortgeschrittene/09-arbeiten-mit-grel/
 
+
+## Feedback und Informationen
+
+Vielen Dank für das Interesse am [SODa](https://sammlungen.io/) Angebot. Damit wir die Ressourcen verbessern und anpassen können, freuen wir uns über jegliche Art von Feedback:
+
+[**Feedback zum Selbstlernkurs "Einführung in OpenRefine"**](https://lime.sammlungen.io/index.php/667777?lang=de&newtest=Y&oer=OpenRefine_Einf_hrung)
+
+
+---
+
+Weitere SODa Selbstlernkurse sind auf unserer [**Knowlegbase**](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64) zu finden.
+
+Informationen und alle Module zu unserem SODa Basiskurs gibt es auf der [**SODa Basiskurs Seite**](https://sammlungen.io/kb/fdm/soda-basiskurs)**.**
+
+---
+
+**Weitere Fragen?**
+
+Der **SODa Helpdesk** hilft bei allen Fragen rund um die Arbeit mit Daten an (Universitäts-)Sammlungen, zu Selbtlernkursen oder Workshops und bietet einen direkten Kontakt zum SODa Team in allen Belangen rund um Sammlungsdigitalisierung und Objektdaten an.
+
+[**soda@sammlungen.io**](mailto:soda@sammlungen.io)
+
+Wir freuen uns auf Ihre Anfrage!
+
+---
+
 ## Impressum
 
 SODa – Sammlungen, Objekte, Datenkompetenzen: https://sammlungen.io/
---------------------------------------------
+-----------------
 
---------------------------------------------
+---
 
-**Autoren:**
+**Mitwirkende:**
 
 - Louise Tharandt (louise.tharandt@hu-berlin.de)
-- Michael Markert (ehemaliger Mitarbeiter)
 - Johannes Schäffer (johannes.schaeffer@hu-berlin.de)
+- Michael Markert (ehemaliger Mitarbeiter)
 
 ---
 
-Version: 2.0
-Datum: 2026-02-02
-Repository: https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial/tree/main
+**Zitiervorschlag:**
+
+Tharandt, L., Schäffer, J., & Markert, M. (2026). SODa Selbstlernkurs: Einführung in OpenRefine. Zenodo. https://doi.org/10.5281/zenodo.16571886
 
 ---
 
+**Lizenz:**
 
-weitere Tutorials und Open Educational Resources: https://sammlungen.io/kb
+![CC BY 4.0 – Creative Commons](img/cc-by.svg "[CC BY 4.0 – Creative Commons](https://creativecommons.org/licenses/by/4.0/deed.de)")
+
+---
+
+Version: 2.1
+
+Datum: 2026-09-08
+
+Repository: https://github.com/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial
 
 ---
 
