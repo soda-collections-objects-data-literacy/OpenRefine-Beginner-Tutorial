@@ -247,6 +247,31 @@ weitere Möglichkeit:
 - Wenn die durchgeführten Schritte auf andere Daten übertragen werden sollen, kann der komplette Verlauf oder ein Teil davon, also die durchgeführten Schritte, exportiert werden: Im Seitenfenster oben rechts auf **Extract...** gehen und dann über Export speichern.
 - Diese JSON Datei kann dann beispielsweise in einem neuen Projekt innerhalb des **Undo / Redo** Tabs über den **Apply...** Button hineingeladen werden.
 
+        {{2}}
+
+> Spalte "ID" -> Facet -> Text Facet
+
+- Eine kurze Übung, um den Ablauf von Undo/Redo zu erklären und auch, um das Auffinden von Duplikaten bei ID zu erklären
+- Ganz nach vorne zur Splate "ID" gehen und vom Dropdown zu **Facet** und dann dem nächsten Dropdown nach rechts folgen und **Text Facet** auswählen.
+- Dort links im kleinen Fenster auf die ID **010-UR_R-27:1** klicken, diese Zeile wird im großen Fenster angezeigt, dort auf das Feld und **edit** klicken.
+- Die ausgewählte ID kopieren, im Popup auf Cancel drücken und im kleinen Facet Fenster durch das klicken auf die orange markierte ID Nummer die Auswahl rückgängig machen.
+- Im kleinen Facet Fenster nun mit der Maus über der ID **011-UR\_R-23:1** hovern, rechts davon auf edit klicken und die zuvor kopierte ID **010-UR_R-27:1** einfügen und auf Apply klicken.
+- Aus der grauen **1** hinter der ID Nummer ist eine **2** geworden. Besser zu sehen und zu finden sind solche Duplikate, wenn das kleine Facet Fenster oben hinter **Sort by:** von **name** zu **count** geändert wird. 
+- Jetzt wird die Reihenfolge nach den häufigsten Vorkommnissen der Werte in der Spalte sortiert, dadurch sind die Werte oben, die häufiger als die anderen vorkommen, bei ID oder Inventarnummer natürlich im besten Fall nur einmal.
+
+        {{3}}
+
+> Undo
+
+- Diese von uns verursachte Veränderung sollte natürlich nicht gespeichert werden oder damit jetzt weiter gearbeitet werden.
+- Daher ändern wird die Ansicht der linken Spalte geändert, oben neben **Facet / Filter** auf **Undo / Redo** klicken.
+- In dieser Tabelle sind alle bisher getätigten Schritte und Aktionen vermerkt.
+- Auf den zuvor durchgeführten Schritt klicken (sollte folgendes sein: *Text transform on 1 cells in column Hersteller (Person): value.replace(/[\p{Zs}\s]+/,' ')* ), bzw. den Schritt auswählen der vor der aktuellen Veränderung steht, also vor **Mass edit 1 cells in column ID** 
+- dadurch wird automatisch die zuvor durchgeführte Aktion zurückgesetzt.
+- der nächste Schritt wird nun darauf aufbauend eingeleitet. Er ersetzt sozusagen den Schritt, der durch das Bearbeiten der ID durchgeführt wurde.
+- Die Veränderung, die durch das Bearbeiten der ID Nummer getätigt wurde, wird überschrieben und ist somit auch nicht mehr auffindbar.
+
+
 ---
 
 ### 5. URLs auftrennen und korrigieren
@@ -360,6 +385,9 @@ Auch hier wird der Wert (value) wieder spezifischer gewählt,
 beim ersten gesuchten Zeichen, dem Unterstrich ("_"), wird das zweite Array [1] gewählt 
 und direkt auf dem Ergebnis aufbauend wird beim zweiten gesuchten Zeichen, 
 dem Doppelpunkt (":"), das erste Array [0] gewählt.
+
+Auch möglich ist folgende Funktion:
+value.split ("-")[2].split (":")[0]
 ```
 
 ---
@@ -395,33 +423,44 @@ Korrekturen erfolgreich durchgeführt.
 > Spalte "Messung" -> Edit column -> Add column based on this column ...
 
 - Über das Dropdown Menü **Edit column** und dort dann **Add column based on this column ...** auswählen
-- Oben im Feld neuen Spalten Namen einfügen, für dieses Beispiel **Länge** eingeben
+- Oben im Feld neuen Spalten Namen einfügen, für dieses Beispiel **Länge Wert** eingeben
 - Innerhalb des Expression Feldes folgende Funktion einfügen und OK drücken:
 
-    `value.find(/Länge:\s*\d+(,\d+)?(mm|cm)/)[0]`
+    `value.match(/.*Länge:\s?(\d+,?\d+)\s?(mm|cm|m).*/)[0]`
 
 **Erklärung:**
 
-| Expression | Bedeutung |
-| -----------|------------|
-| Länge:     | Sucht den genauen Text „Länge:“ |
-| \s*        | Erlaubt beliebig viele Leerzeichen (oder keine) nach „Länge:“ |
-| \d+        | Erfordert mindestens eine Ziffer (ganze Zahl wie 12, 456 usw.) |
-| (,\d+)?    | Optional: Ein Komma gefolgt von einer weiteren Zahlenfolge (z. B. ,45 für Dezimalzahlen) |
-| (mm\|cm)    | Erwartet, dass der Text mit "mm" oder "cm“ endet |
+| Expression | Bedeutung                                                                                    |
+|------------|----------------------------------------------------------------------------------------------|
+| /.\*       | Beliebig viele, oder auch keine Zeichen vor dem darauf folgenden Wert                        |
+| Länge:     | Sucht den genauen Text „Länge:“                                                              |
+| \\s?       | Ein optionaler Leerraum nach „Länge:“                                                        |
+| \\d+       | Sucht und erfordert mindestens eine Ziffer (ganze Zahl wie 12, 456 usw.)                     |
+| ,?\\d+     | optional gefolgt von einem Komma mit einer weiteren Zahlenfolge (z.B. ,45 für Dezimalzahlen) |
+| (mm\|cm\|m) | Erwartet, dass der Text mit "mm", "cm“ oder "m" endet                                        |
+| \[0\]      | Aus dem entstandenen Array wird der erste übereinstimmende Wert mit \[0\] gewählt            |
 
-- Aus der Spalte "Messung" wurden nur die Längenangaben extrahiert, dies kann man durch austauschen der Wörter mit den Angaben für Breite, Höhe und Durchmesser wiederholen.
 
-- Um die Spalte **Gewicht** zu erstellen die Schritte wiederholen und folgende Funktion einfügen:
 
-    `value.find(/Gewicht:\s*\d+(,\d+)?(g|kg)/)[0]`
+- Aus der Spalte "Messung" wurden nur die Längenangaben extrahiert
+- Durch das Wiederholen dieser Funktion, aber dem Ändern des Arrays, also anstatt **[0]** eine **[1]** einsetzen, ergibt folgende Funktion `value.match(/.*Länge:\s?(\d+,?\d+)\s?(mm|cm|m).*/)[1]` , dadurch wird die Maßeinheit gefiltert.
+- Dafpr wieder über das Dropdown Menü **Edit column** und dort dann **Add column based on this column ...** auswählen, **Länge Einheit** eingeben und die Funktion mit dem geänderten Array Wert eingeben.
+- Diese Funktion kann man zudem durch das Austauschen der Wörter mit den Angaben für Breite, Höhe und Durchmesser wiederholen.
+
+- Um die Spalte **Gewicht** zu erstellen, die Schritte wiederholen und folgende Funktionen einfügen:
+
+  Spalte "Gewicht Wert":  `value.match(/.*Gewicht:\s?(\d+,?\d+)\s?(g|kg).*/)[0]`
+
+  Spalte "Gewicht Einheit": `value.match(/.*Gewicht:\s?(\d+,?\d+)\s?(g|kg).*/)[1]`
 
         {{3}}
 
->**Frage:** Wenn die Spalte Breite erstellt werden soll, wie lautet die Funktion?
+>**Frage:** Wenn die Spalten für Breite erstellt werden sollen, wie lauten die Funktionen?
 
 ```  -Lösung
-value.find(/Breite:\s*\d+(,\d+)?(mm|cm)/)[0]
+value.match(/.*Breite:\s?(\d+,?\d+)\s?(mm|cm|m).*/)[0]
+
+value.match(/.*Breite:\s?(\d+,?\d+)\s?(mm|cm|m).*/)[1]
 ```
 
 ---
